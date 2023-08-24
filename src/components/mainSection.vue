@@ -10,7 +10,7 @@
          <el-carousel-item v-for="(items, index) in carousel" class="h-full">
             <div class="relative flex h-full items-center justify-center">
                <div class="absolute inset-0 h-full w-full">
-                  <!-- <img :src="items.image" alt="" class="h-full w-full" /> -->
+                  <img :src="items.image" alt="" class="h-full w-full" />
                   <div class="absolute inset-0 h-full w-full bg-black/25"></div>
                </div>
 
@@ -44,11 +44,11 @@ export default {
             content: "number2",
          },
          {
-            image: "../src/assets/images/2.jpg",
+            image: "../src/assets/images/slide2.jpg",
             content: "number2",
          },
          {
-            image: "../src/assets/images/3.png",
+            image: "../src/assets/images/slide3.jpg",
             content: "number2",
          },
       ]
@@ -69,25 +69,6 @@ export default {
    line-height: 200px;
    margin: 0;
    text-align: center;
-}
-
-.el-carousel__item:nth-child(1) {
-   background-image: url("../assets/images/slide1.jpg");
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-}
-.el-carousel__item:nth-child(2) {
-   background-image: url("../assets/images/slide2.jpg");
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-}
-.el-carousel__item:nth-child(3) {
-   background-image: url("../assets/images/slide3.jpg");
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
 }
 
 .el-carousel__indicators.el-carousel__indicators--vertical {
