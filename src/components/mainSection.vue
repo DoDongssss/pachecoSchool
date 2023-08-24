@@ -40,15 +40,15 @@ export default {
    setup() {
       const carousel = [
          {
-            image: "../assets/images/slide1.jpg",
+            image: "../src/assets/images/slide1.jpg",
             content: "number2",
          },
          {
-            image: "../assets/images/slide2.jpg",
+            image: "../src/assets/images/slide2.jpg",
             content: "number2",
          },
          {
-            image: "../assets/images/slide3.jpg",
+            image: "../src/assets/images/slide3.jpg",
             content: "number2",
          },
       ]
