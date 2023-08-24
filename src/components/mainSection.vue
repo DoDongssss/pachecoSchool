@@ -72,19 +72,19 @@ export default {
 }
 
 .el-carousel__item:nth-child(1) {
-   background-image: url("../src/assets/images/slide1.jpg");
+   background-image: url("../assets/images/slide1.jpg");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
 }
 .el-carousel__item:nth-child(2) {
-   background-image: url("../src/assets/images/slide2.jpg");
+   background-image: url("../assets/images/slide2.jpg");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
 }
 .el-carousel__item:nth-child(3) {
-   background-image: url("../src/assets/images/slide3.jpg");
+   background-image: url("../assets/images/slide3.jpg");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
