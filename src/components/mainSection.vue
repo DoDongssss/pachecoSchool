@@ -4,8 +4,8 @@
          class="relative h-screen"
          direction="vertical"
          trigger="click"
-         :interval="2500"
-         :autoplay="false"
+         :interval="3500"
+         :autoplay="true"
       >
          <el-carousel-item v-for="(items, index) in carousel" class="h-full">
             <div class="relative flex h-full items-center justify-center">
@@ -77,10 +77,19 @@ export default {
    background-position: center;
    background-repeat: no-repeat;
 }
-
-.el-carousel__item:nth-child(2n + 1) {
-   background-color: #d3dce6;
+.el-carousel__item:nth-child(2) {
+   background-image: url("../src/assets/images/slide2.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
 }
+.el-carousel__item:nth-child(3) {
+   background-image: url("../src/assets/images/slide3.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
 .el-carousel__indicators.el-carousel__indicators--vertical {
    margin-left: 50px;
    left: 0;
