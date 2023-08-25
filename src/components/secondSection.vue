@@ -4,7 +4,7 @@
          <div class="w-1/2">
             <div class="flex flex-col">
                <h1
-                  class="w-fit border-b border-blue-400/30 pb-2 text-left text-[2rem] text-xl font-[900] text-primary_darker"
+                  class="w-fit border-b border-blue-400/30 pb-2 text-left text-2xl font-[900] text-primary_darker"
                >
                   ABOUT
                </h1>

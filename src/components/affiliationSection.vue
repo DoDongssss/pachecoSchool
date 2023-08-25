@@ -1,7 +1,7 @@
 <template>
    <section>
       <h1
-         class="text-primary_darker w-fit border-b border-blue-400/30 pb-2 text-left text-xl font-[900]"
+         class="w-fit border-b border-blue-400/30 pb-2 text-left text-xl font-[900] text-primary_darker"
       >
          ACCREDITATIONS & AFFILIATIONS
       </h1>
@@ -24,7 +24,7 @@
             <div
                class="relative flex min-w-[300px] flex-1 flex-col items-center rounded-[5px] border border-gray-200 p-6 shadow-lg"
             >
-               <h2 class="text-lg font-bold">MISSION DIRI</h2>
+               <h2 class="text-lg font-bold">AWARD 1</h2>
                <p class="mt-5 text-justify">
                   Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
                   adipisicing elit. Cupiditate minus fugiat accusamus labore
@@ -38,7 +38,7 @@
             <div
                class="relative flex min-w-[300px] flex-1 flex-col items-center rounded-[5px] border border-gray-200 p-6 shadow-lg"
             >
-               <h2 class="text-lg font-bold">MISSION DIRI</h2>
+               <h2 class="text-lg font-bold">AWARD 2</h2>
                <p class="mt-5 text-justify">
                   Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
                   adipisicing elit. Cupiditate minus fugiat accusamus labore
@@ -52,7 +52,7 @@
             <div
                class="relative flex min-w-[300px] flex-1 flex-col items-center rounded-[5px] border border-gray-200 p-6 shadow-lg"
             >
-               <h2 class="text-lg font-bold">MISSION DIRI</h2>
+               <h2 class="text-lg font-bold">AWARD 3</h2>
                <p class="mt-5 text-justify">
                   Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
                   adipisicing elit. Cupiditate minus fugiat accusamus labore
