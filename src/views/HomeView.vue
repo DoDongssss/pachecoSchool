@@ -60,11 +60,18 @@ export default {
          loading,
       }
    },
-   mounted() {
-      // Simulate content loading
-      setTimeout(() => {
+   methods: {
+      loaderHandler() {
          this.loading = false
-      }, 2000) // Adjust the time as needed
+      },
+   },
+   mounted() {
+      // setTimeout(() => {
+      //    this.loading = false
+      //    console.log("yes")
+      // }, 1000)
+
+      window.addEventListener("load", this.loaderHandler)
    },
 }
 </script>
