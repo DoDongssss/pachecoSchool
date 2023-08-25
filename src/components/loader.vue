@@ -1,6 +1,6 @@
 <template>
    <div
-      class="fixed inset-0 z-[999999999999999] flex items-center justify-center bg-white bg-opacity-75"
+      class="fixed inset-0 z-[999999999999999] flex items-center justify-center bg-white"
       v-if="isLoading"
    >
       <div class="h-12 w-12">
