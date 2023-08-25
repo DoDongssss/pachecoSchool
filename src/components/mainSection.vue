@@ -10,20 +10,23 @@
          <el-carousel-item v-for="(items, index) in carousel" class="h-full">
             <div class="relative flex h-full items-center justify-center">
                <div class="absolute inset-0 h-full w-full">
-                  <!-- <img :src="items.image" alt="" class="h-full w-full" /> -->
-                  <img
+                  <img :src="items.image" alt="" class="h-full w-full" />
+
+                  <!-- <img
                      src="../assets/images/slide1.jpg"
                      alt=""
                      class="h-full w-full"
-                  />
-                  <div class="absolute inset-0 h-full w-full bg-black/25"></div>
+                  /> -->
+                  <!-- <div class="absolute inset-0 h-full w-full bg-black/25">
+            
+                  </div> -->
                </div>
 
                <!-- <div class="z-10 p-6">
-          <h3 text="2xl" justify="center">{{ items.content }}</h3> 
-          <img src="../assets/images/zoneIV.png" alt="" />
-         <h1>{{ index }}</h1>
-        </div> -->
+               <h3 text="2xl" justify="center">{{ items.content }}</h3> 
+               <img src="../assets/images/zoneIV.png" alt="" />
+               <h1>{{ index }}</h1>
+            </div> -->
 
                <!-- first section of the carousel -->
                <div class="z-10 p-6" v-if="index == 0">
@@ -45,15 +48,15 @@ export default {
    setup() {
       const carousel = [
          {
-            image: "../assets/images/slide1.jpg",
+            image: "../src/assets/images/slide1.jpg",
             content: "number2",
          },
          {
-            image: "../assets/images/slide2.jpg",
+            image: "../src/assets/images/slide2.jpg",
             content: "number2",
          },
          {
-            image: "../assets/images/slide3.jpg",
+            image: "../src/assets/images/slide3.jpg",
             content: "number2",
          },
       ]
