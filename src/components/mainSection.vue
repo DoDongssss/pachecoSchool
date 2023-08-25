@@ -10,7 +10,24 @@
          <el-carousel-item v-for="(items, index) in carousel" class="h-full">
             <div class="relative flex h-full items-center justify-center">
                <div class="absolute inset-0 h-full w-full">
-                  <img :src="items.image" alt="" class="h-full w-full" />
+                  <img
+                     src="../assets/images/slide1.jpg"
+                     alt=""
+                     class="h-full w-full"
+                     v-if="index === 0"
+                  />
+                  <img
+                     src="../assets/images/slide2.jpg"
+                     alt=""
+                     class="h-full w-full"
+                     v-if="index === 1"
+                  />
+                  <img
+                     src="../assets/images/slide3.jpg"
+                     alt=""
+                     class="h-full w-full"
+                     v-if="index === 2"
+                  />
 
                   <!-- <img
                      src="../assets/images/slide1.jpg"
