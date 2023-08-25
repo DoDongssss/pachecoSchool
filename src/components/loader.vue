@@ -1,11 +1,11 @@
 <template>
    <div
-      class="fixed inset-0 z-50 flex items-center justify-center bg-white bg-opacity-75"
+      class="fixed inset-0 z-[999999999999999] flex items-center justify-center bg-white bg-opacity-75"
       v-if="isLoading"
    >
-      <div
-         class="loader h-12 w-12 rounded-full border-4 border-t-4 border-gray-200 ease-linear"
-      ></div>
+      <div class="h-12 w-12">
+         <img src="../assets/images/spinner.gif" alt="Animated GIF" />
+      </div>
    </div>
 </template>
 
