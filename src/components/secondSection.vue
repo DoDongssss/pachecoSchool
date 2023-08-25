@@ -101,7 +101,7 @@
          <div
             class="flex h-[450px] w-1/2 flex-1 items-center justify-center rounded-sm bg-[url('../assets/images/about1.jpg')] bg-cover bg-no-repeat"
          >
-            PICTURE NI DIRI HA !
+            <!-- PICTURE NI DIRI HA ! -->
          </div>
       </div>
    </section>
