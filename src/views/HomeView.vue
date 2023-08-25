@@ -69,8 +69,7 @@ export default {
       // setTimeout(() => {
       //    this.loading = false
       //    console.log("yes")
-      // }, 1000)
-
+      // }, 10000)
       window.addEventListener("load", this.loaderHandler)
    },
 }
