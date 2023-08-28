@@ -3,6 +3,9 @@ module.exports = {
    content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}", ,],
    theme: {
       extend: {
+         fontFamily: {
+            montserrat: ["montserrat", "sans-serif"],
+         },
          colors: {
             primary_lighter:
                "rgb(var(--color-primary-lighter) / <alpha-value>)",

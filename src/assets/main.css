@@ -17,10 +17,16 @@
 	}
 }
 
-
+@font-face {
+	font-family: montserrat;
+	src: url('./fonts/Montserrat.ttf');
+  }
+  
+  
 /* smooth scrolling */
 html,
 body{
+	@apply font-montserrat;
   scroll-behavior: smooth;
 }
 
@@ -50,7 +56,16 @@ body::-webkit-scrollbar-thumb
 } */
 
 /* recaptcha class */
-
 .grecaptcha-badge{
 	z-index: 999999;
+}
+
+
+/* element plus */
+.el-backtop {
+	height: 43px!important;
+	width: 43px!important;
+}
+.el-backtop .el-backtop__icon{
+	font-size: 30px;
 }

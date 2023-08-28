@@ -8,7 +8,7 @@
       <form
          action=""
          class="mt-12 flex w-[700px] flex-col gap-6"
-         @submit.prevent="handleSend"
+         @submit.prevent="sendEmail()"
       >
          <div class="flex w-full gap-6">
             <div class="flex flex-1 flex-col gap-1">
@@ -99,6 +99,7 @@
 
 <script>
 import { ref } from "vue"
+import emailjs from "emailjs-com"
 import axios from "axios"
 
 export default {
@@ -114,10 +115,29 @@ export default {
       return { contactFrom }
    },
    methods: {
-      sendEmail() {
-         const mailToLink = `mailto:${"johnny.asumbra@eulap.com"}?subject=${encodeURIComponent(
-            this.contactFrom.lastname + ", " + this.contactFrom.firstname
-         )}&body=${encodeURIComponent(this.contactFrom.messages)}`
+      async sendEmail() {
+         // const mailToLink = `mailto:${"johnny.asumbra@eulap.com"}?subject=${encodeURIComponent(
+         //    this.contactFrom.lastname
+         // )}&body=${encodeURIComponent(this.contactFrom.messages)}`
+         // window.location.href = mailToLink
+
+         await emailjs
+            .send(
+               "service_y0cfvq1",
+               "template_pewmpk8",
+               {
+                  to_email: "christianemmanuel.espinosa@eulap.com",
+                  subject: this.contactFrom.lastname,
+                  message: this.contactFrom.messages,
+               },
+               "jiEPMBbIF-ES28y1l"
+            )
+            .then((res) => {
+               console.log(res)
+            })
+            .catch((err) => {
+               console.log(err)
+            })
       },
 
       async handleSend() {

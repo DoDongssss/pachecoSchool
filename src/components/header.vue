@@ -1,6 +1,6 @@
 <template>
    <header
-      class="fixed top-0 z-[999999] w-full shadow-[19px] transition-all duration-300 ease-linear"
+      class="fixed top-0 z-[999999] w-full shadow-sm transition-all duration-300 ease-linear"
       :class="
          headerStatus == false && prevScrollPos != 0
             ? 'opacity-1 translate-y-0'
@@ -29,33 +29,39 @@
          <div class="flex gap-6">
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
+               :class="currentScrollPos < 900 ? 'text-primary_darker' : ''"
             >
-               Home
+               <a href="#home"> Home</a>
+            </li>
+            <li
+               class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
+               :class="
+                  currentScrollPos > 900 && currentScrollPos < 1950
+                     ? 'text-primary_darker'
+                     : ''
+               "
+            >
+               <a href="#about">About</a>
             </li>
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
             >
-               About
+               <a href="#education">Education</a>
             </li>
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
             >
-               Education
+               <a href="#campus">Campus</a>
             </li>
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
             >
-               Campus
+               <a href="#affiliation">Affiliations</a>
             </li>
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
             >
-               Affiliations
-            </li>
-            <li
-               class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
-            >
-               Contact
+               <a href="#contact">Contact</a>
             </li>
          </div>
       </div>
@@ -69,6 +75,7 @@ export default {
    setup() {
       const prevScrollPos = ref(0)
       const headerStatus = ref(false)
+      const currentScrollPos = ref(0)
       return {
          prevScrollPos,
          headerStatus,
@@ -76,15 +83,16 @@ export default {
    },
    methods: {
       handleScroll() {
-         const currentScrollPos = window.scrollY || window.pageYOffset
+         this.currentScrollPos = window.scrollY || window.pageYOffset
 
-         if (currentScrollPos > this.prevScrollPos) {
+         if (this.currentScrollPos > this.prevScrollPos) {
             this.headerStatus = true
          } else {
             this.headerStatus = false
          }
 
-         this.prevScrollPos = currentScrollPos
+         this.prevScrollPos = this.currentScrollPos
+         console.log(this.currentScrollPos)
       },
    },
    mounted() {

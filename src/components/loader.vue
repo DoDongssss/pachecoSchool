@@ -4,7 +4,8 @@
       v-if="isLoading"
    >
       <div class="h-12 w-12">
-         <img src="../assets/images/cube.gif" alt="Animated GIF" />
+         <span class="loading loading-dots loading-lg bg-primary"></span>
+         <!-- <img src="../assets/images/cube.gif" alt="Animated GIF" /> -->
          <!-- <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"

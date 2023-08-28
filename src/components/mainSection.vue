@@ -5,7 +5,7 @@
          direction="vertical"
          trigger="click"
          :interval="3500"
-         :autoplay="false"
+         :autoplay="true"
       >
          <el-carousel-item v-for="(items, index) in carousel" class="h-full">
             <div class="relative flex h-full items-center justify-center">

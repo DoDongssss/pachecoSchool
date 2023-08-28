@@ -8,12 +8,18 @@
       "
    >
       <div class="max-w-[1000px]">
-         <h1
-            class="rounded-md bg-primary p-6 text-center text-2xl font-semibold italic text-white shadow-lg"
-         >
-            Empowering Minds, Enriching Futures: Antonio R Pacheco College
-            Incorporated
-         </h1>
+         <div class="flex flex-col gap-5 bg-primary p-6 text-white shadow-lg">
+            <h1 class="rounded-md text-center text-2xl font-semibold italic">
+               Empowering Minds, Shaping Futures, Together at Pacheco College.
+            </h1>
+            <!-- <div class="text-center">
+               <a
+                  href=""
+                  class="rounded-sm bg-green-500 px-3 py-2 text-lg font-bold"
+                  >Inquire Us</a
+               >
+            </div> -->
+         </div>
       </div>
    </div>
 </template>
