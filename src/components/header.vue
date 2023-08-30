@@ -29,37 +29,41 @@
          <div class="flex gap-6">
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
-               :class="currentScrollPos < 900 ? 'text-primary_darker' : ''"
+               :class="sectionRecieve == 'home' ? 'text-primary_darker' : ''"
             >
                <a href="#home"> Home</a>
             </li>
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
-               :class="
-                  currentScrollPos > 900 && currentScrollPos < 1950
-                     ? 'text-primary_darker'
-                     : ''
-               "
+               :class="sectionRecieve == 'about' ? 'text-primary_darker' : ''"
             >
                <a href="#about">About</a>
             </li>
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
+               :class="
+                  sectionRecieve == 'education' ? 'text-primary_darker' : ''
+               "
             >
                <a href="#education">Education</a>
             </li>
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
+               :class="sectionRecieve == 'campus' ? 'text-primary_darker' : ''"
             >
                <a href="#campus">Campus</a>
             </li>
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
+               :class="
+                  sectionRecieve == 'affiliation' ? 'text-primary_darker' : ''
+               "
             >
                <a href="#affiliation">Affiliations</a>
             </li>
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
+               :class="sectionRecieve == 'contact' ? 'text-primary_darker' : ''"
             >
                <a href="#contact">Contact</a>
             </li>
@@ -72,13 +76,18 @@
 import { ref } from "vue"
 
 export default {
+   props: {
+      activeSection: String,
+   },
    setup() {
       const prevScrollPos = ref(0)
       const headerStatus = ref(false)
       const currentScrollPos = ref(0)
+      const innerHeight = ref(window.innerHeight || window)
       return {
          prevScrollPos,
          headerStatus,
+         innerHeight,
       }
    },
    methods: {
@@ -92,7 +101,12 @@ export default {
          }
 
          this.prevScrollPos = this.currentScrollPos
-         console.log(this.currentScrollPos)
+         // console.log(this.currentScrollPos)
+      },
+   },
+   computed: {
+      sectionRecieve() {
+         return this.activeSection
       },
    },
    mounted() {

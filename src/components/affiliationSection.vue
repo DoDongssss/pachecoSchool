@@ -20,47 +20,50 @@
             temporibus quos placeat! Animi placeat quos perferendis quasi dolor
             esse!
          </p>
-         <div class="mt-6 flex flex-wrap gap-6">
+         <div class="mt-12 flex flex-wrap justify-between gap-6">
             <div
-               class="relative flex min-w-[300px] flex-1 flex-col items-center rounded-[5px] border border-gray-200 p-6 shadow-lg"
+               class="relative flex min-w-[300px] max-w-[300px] flex-1 flex-col rounded-[5px]"
             >
-               <h2 class="text-lg font-bold">AWARD 1</h2>
-               <p class="mt-5 text-justify">
-                  Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Cupiditate minus fugiat accusamus labore
-                  unde expedita quidem, est quasi at illo, voluptate sequi illum
-                  ratione nostrum?, amet consectetur adipisicing elit. Aut,
-                  nulla fugiat illum quo, cum eligendi quibusdam voluptatem
-                  culpa provident, ad officiis dignissimos distinctio cupiditate
-                  laboriosam.
+               <img
+                  src="../assets/images/building.jpg"
+                  alt=""
+                  class="rounded-lg"
+               />
+               <h5 class="mt-6 text-lg font-bold">AWARD 1</h5>
+               <p class="mt-2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quaerat, ratione. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quos, assumenda?
                </p>
             </div>
             <div
-               class="relative flex min-w-[300px] flex-1 flex-col items-center rounded-[5px] border border-gray-200 p-6 shadow-lg"
+               class="relative flex min-w-[300px] max-w-[300px] flex-1 flex-col rounded-[5px]"
             >
-               <h2 class="text-lg font-bold">AWARD 2</h2>
-               <p class="mt-5 text-justify">
-                  Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Cupiditate minus fugiat accusamus labore
-                  unde expedita quidem, est quasi at illo, voluptate sequi illum
-                  ratione nostrum?, amet consectetur adipisicing elit. Aut,
-                  nulla fugiat illum quo, cum eligendi quibusdam voluptatem
-                  culpa provident, ad officiis dignissimos distinctio cupiditate
-                  laboriosam.
+               <img
+                  src="../assets/images/building.jpg"
+                  alt=""
+                  class="rounded-lg"
+               />
+               <h5 class="mt-6 text-lg font-bold">AWARD 2</h5>
+               <p class="mt-2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quaerat, ratione. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quos, assumenda?
                </p>
             </div>
             <div
-               class="relative flex min-w-[300px] flex-1 flex-col items-center rounded-[5px] border border-gray-200 p-6 shadow-lg"
+               class="relative flex min-w-[300px] max-w-[300px] flex-1 flex-col rounded-[5px]"
             >
-               <h2 class="text-lg font-bold">AWARD 3</h2>
-               <p class="mt-5 text-justify">
-                  Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Cupiditate minus fugiat accusamus labore
-                  unde expedita quidem, est quasi at illo, voluptate sequi illum
-                  ratione nostrum?, amet consectetur adipisicing elit. Aut,
-                  nulla fugiat illum quo, cum eligendi quibusdam voluptatem
-                  culpa provident, ad officiis dignissimos distinctio cupiditate
-                  laboriosam.
+               <img
+                  src="../assets/images/building.jpg"
+                  alt=""
+                  class="rounded-lg"
+               />
+               <h5 class="mt-6 text-lg font-bold">AWARD 3</h5>
+               <p class="mt-2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quaerat, ratione. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quos, assumenda?
                </p>
             </div>
          </div>

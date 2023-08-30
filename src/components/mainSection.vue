@@ -5,13 +5,13 @@
          direction="vertical"
          trigger="click"
          :interval="3500"
-         :autoplay="true"
+         :autoplay="false"
       >
          <el-carousel-item v-for="(items, index) in carousel" class="h-full">
             <div class="relative flex h-full items-center justify-center">
                <div class="absolute inset-0 h-full w-full">
                   <img
-                     src="../assets/images/slide1.jpg"
+                     src="../assets/images/slide3.jpg"
                      alt=""
                      class="h-full w-full"
                      v-if="index === 0"
@@ -23,7 +23,7 @@
                      v-if="index === 1"
                   />
                   <img
-                     src="../assets/images/slide3.jpg"
+                     src="../assets/images/slide1.jpg"
                      alt=""
                      class="h-full w-full"
                      v-if="index === 2"
@@ -46,8 +46,23 @@
             </div> -->
 
                <!-- first section of the carousel -->
-               <div class="z-10 p-6" v-if="index == 0">
-                  <!-- <h1 class="text-4xl">MGA HIGHLIGHTS SA SKWELAHAN DIRI</h1> -->
+               <div
+                  class="z-10 flex flex-col items-center justify-center p-6"
+                  v-if="index == 0"
+               >
+                  <img
+                     src="../assets/images/logo.png"
+                     alt=""
+                     class="h-[200px] w-[200px]"
+                  />
+                  <h1 class="text-[4vw] font-[900] italic text-white">
+                     ANTONIO R. PACHECO COLLEGE, INC.
+                  </h1>
+                  <button
+                     class="mt-6 rounded-full border-2 border-primary_dark px-8 py-3 text-xl text-white shadow-md transition-[background] hover:bg-primary_darker"
+                  >
+                     <a href="#contact"> Inquire us </a>
+                  </button>
                </div>
                <!-- second section of the carousel -->
                <div class="z-10 p-6" v-if="index == 1"></div>

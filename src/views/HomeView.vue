@@ -2,12 +2,14 @@
    <loader :isLoading="loading" />
    <div :class="loading ? 'hidden' : ''">
       <div class="relative z-10 h-full w-full bg-white">
-         <headerView />
+         <headerView :activeSection="activeSection" />
          <mainSection id="home" />
          <div class="relative">
             <taglineBox />
          </div>
-         <div class="flex flex-col gap-[150px] p-[100px] px-[150px]">
+         <div
+            class="flex flex-col gap-[150px] p-[100px] px-[75px] lg:px-[150px]"
+         >
             <aboutSection id="about" />
             <competenciesSection />
             <educationSection id="education" />
@@ -15,7 +17,7 @@
             <affiliationSection id="affiliation" />
             <contactusSection id="contact" />
          </div>
-         <footer class="mb-[700px] bg-[#111]"></footer>
+         <footer class="mb-[800px] bg-[#111]"></footer>
          <!-- back to top button -->
          <el-backtop :right="50" :bottom="80" :size="500" />
       </div>
@@ -53,14 +55,43 @@ export default {
    },
    setup() {
       const loading = ref(true)
+      const educationPos = ref(null)
+      const activeSection = ref("home")
 
       return {
          loading,
+         educationPos,
+         activeSection,
       }
    },
    methods: {
       loaderHandler() {
          this.loading = false
+      },
+      checkVisibleSection() {
+         const sections = [
+            "home",
+            "about",
+            "education",
+            "campus",
+            "affiliation",
+            "contacts",
+         ]
+
+         for (const section of sections) {
+            const element = document.getElementById(section)
+            if (element) {
+               const rect = element.getBoundingClientRect()
+               if (
+                  rect.top <= window.innerHeight / 2 &&
+                  rect.bottom >= window.innerHeight / 2
+               ) {
+                  this.activeSection = section
+                  console.log(this.activeSection)
+                  break
+               }
+            }
+         }
       },
    },
    mounted() {
@@ -69,6 +100,8 @@ export default {
       //    console.log("yes")
       // }, 10000)
       window.addEventListener("load", this.loaderHandler)
+
+      window.addEventListener("scroll", this.checkVisibleSection)
    },
 }
 </script>

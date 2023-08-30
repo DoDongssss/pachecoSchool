@@ -9,7 +9,9 @@
    >
       <div class="max-w-[1000px]">
          <div class="flex flex-col gap-5 bg-primary p-6 text-white shadow-lg">
-            <h1 class="rounded-md text-center text-2xl font-semibold italic">
+            <h1
+               class="rounded-md text-center text-[1.7vw] font-semibold italic"
+            >
                Empowering Minds, Shaping Futures, Together at Pacheco College.
             </h1>
             <!-- <div class="text-center">
