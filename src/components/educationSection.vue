@@ -15,7 +15,7 @@
                PRESCHOOL
             </div> -->
             <div
-               class="collapse collapse-plus w-[calc(50%-12px)] rounded-md border border-gray-200 bg-[url('../assets/images/footerbg.jpg')] bg-cover bg-top text-white shadow-sm"
+               class="collapse-plus collapse w-[calc(50%-12px)] rounded-md border border-gray-200 bg-[url('../assets/images/footerbg.jpg')] bg-cover bg-top text-white shadow-sm"
             >
                <input type="checkbox" name="my-accordion-3" />
                <div class="text-md collapse-title font-[900]">PRESCHOOL</div>
@@ -25,8 +25,6 @@
                   >
                      <li>Kinder 1</li>
                      <li>Kinder 2</li>
-                     <li>Kinder 3</li>
-                     <li>Kinder 4</li>
                   </ul>
                </div>
             </div>
@@ -73,11 +71,8 @@
                   <ul
                      class="text-md ml-6 flex list-disc flex-col gap-2 text-sm font-bold"
                   >
-                     <li>STEM</li>
-                     <li>TVL</li>
                      <li>GAS</li>
-                     <li>HUMMS</li>
-                     <li>ICT</li>
+                     <li>TVL</li>
                   </ul>
                </div>
             </div>
@@ -85,30 +80,80 @@
                class="collapse-plus collapse rounded-md border border-gray-200 bg-[url('../assets/images/footerbg.jpg')] bg-cover bg-top text-white shadow-sm"
             >
                <input type="checkbox" name="my-accordion-3" class="z-10" />
-               <div class="text-md collapse-title text-center font-[900]">
+               <div class="collapse-title text-center text-lg font-[900]">
                   COLLEGE
                </div>
                <div class="collapse-content flex">
-                  <div class="flex w-1/2 items-center justify-center">
+                  <div class="mt-6 flex w-1/2 items-start justify-center">
                      <ul
-                        class="text-md ml-6 flex list-disc flex-col gap-2 text-sm font-bold"
+                        class="text-md ml-6 flex list-disc flex-col gap-2 text-lg"
                      >
-                        <li>STEM</li>
-                        <li>TVL</li>
-                        <li>GAS</li>
-                        <li>HUMMS</li>
-                        <li>ICT</li>
+                        <li>
+                           <label for="" class="font-bold">BEED</label>
+                           <span class="font-semibold">
+                              (Bacheclor of Elementary Education )</span
+                           >
+                        </li>
+                        <li>
+                           <label for="" class="font-bold">BSED</label>
+                           <span class="font-semibold">
+                              (Bacheclor of Secondary Education )</span
+                           >
+                           <ul class="ml-4 list-[lower-alpha] text-sm">
+                              <li>English</li>
+                              <li>Math</li>
+                              <li>Filipino</li>
+                              <li>History</li>
+                           </ul>
+                        </li>
+                        <li>
+                           <label for="" class="font-bold">BSCRIM</label>
+                           <span class="font-semibold">
+                              (BS in Criminology )</span
+                           >
+                        </li>
+                        <li>
+                           <label for="" class="font-bold">BSBA</label>
+                           <span class="font-semibold">
+                              (BS in Business Administration )</span
+                           >
+                        </li>
                      </ul>
                   </div>
-                  <div class="flex w-1/2 items-center justify-center">
+                  <div class="mt-6 flex w-1/2 items-start justify-center">
                      <ul
-                        class="text-md ml-6 flex list-disc flex-col gap-2 text-sm font-bold"
+                        class="text-md ml-6 flex list-disc flex-col gap-2 text-lg"
                      >
-                        <li>STEM</li>
-                        <li>TVL</li>
-                        <li>GAS</li>
-                        <li>HUMMS</li>
-                        <li>ICT</li>
+                        <li>
+                           <label for="" class="font-bold">ACT</label>
+                           <span class="font-semibold">
+                              (2 years Associate in Computer Technology)</span
+                           >
+                        </li>
+                        <li>
+                           <label for="" class="font-bold">BSSW</label>
+                           <span class="font-semibold">
+                              (BS in Social Work)</span
+                           >
+                        </li>
+                        <li>
+                           <label for="" class="font-bold">BSIS</label>
+                           <span class="font-semibold">
+                              (BS in Information System)</span
+                           >
+                        </li>
+                        <li>
+                           <label for="" class="font-bold">BSTM</label>
+                           <span class="font-semibold">
+                              (BS in Tourism Management)</span
+                           >
+                        </li>
+                        <li>
+                           <label for="" class="font-bold">BECED</label>
+                           <span class="font-semibold">
+                              (BS in Early Childhood Education)</span
+                           >
+                        </li>
                      </ul>
                   </div>
                </div>
