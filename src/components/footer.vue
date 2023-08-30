@@ -129,7 +129,7 @@
       </div>
 
       <div
-         class="flex h-[66px] w-full flex-col items-center justify-center bg-primary_darker text-sm"
+         class="flex h-[66px] w-full flex-col items-center justify-center bg-primary_darker text-[11px] sm:text-sm"
       >
          <div class="flex gap-3 font-semibold">
             <p class="cursor-pointer">Terms & Conditions</p>
@@ -146,7 +146,7 @@
                </form>
             </dialog>
          </div>
-         <p class="mt-2 text-white">
+         <p class="sm:text-md mt-2 text-[8px] text-white">
             Copyright © 2023. All Rights Reserved Antonio R. Pacheco | Noth
             Cotabato
          </p>

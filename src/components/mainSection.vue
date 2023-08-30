@@ -4,8 +4,8 @@
          class="relative h-screen"
          direction="vertical"
          trigger="click"
-         :interval="3500"
-         :autoplay="false"
+         :interval="5000"
+         :autoplay="true"
       >
          <el-carousel-item v-for="(items, index) in carousel" class="h-full">
             <div class="relative flex h-full items-center justify-center">
@@ -53,13 +53,13 @@
                   <img
                      src="../assets/images/logo.png"
                      alt=""
-                     class="h-[200px] w-[200px]"
+                     class="h-[125px] w-[125px] sm:h-[200px] sm:w-[200px]"
                   />
                   <h1 class="text-[4vw] font-[900] italic text-white">
                      ANTONIO R. PACHECO COLLEGE, INC.
                   </h1>
                   <button
-                     class="mt-6 rounded-full border-2 border-primary_dark px-8 py-3 text-xl text-white shadow-md transition-[background] hover:bg-primary_darker"
+                     class="text-md mt-6 rounded-full border-2 border-primary_dark px-8 py-3 text-white shadow-md transition-[background] hover:bg-primary_darker sm:text-xl"
                   >
                      <a href="#contact"> Inquire us </a>
                   </button>
@@ -123,5 +123,11 @@ export default {
    height: 25px;
    width: 10px;
    border-radius: 15px;
+}
+
+@media screen and (max-width: 600px) {
+   .el-carousel__indicators.el-carousel__indicators--vertical {
+      visibility: hidden;
+   }
 }
 </style>
