@@ -3,7 +3,7 @@
       class="fixed bottom-0 left-0 right-0 z-0 w-full bg-primary text-primary-content"
    >
       <div
-         class="no-repeat footer flex w-full flex-col items-center gap-0 bg-[url('../assets/images/footerbg.jpg')] bg-cover bg-top bg-no-repeat px-[150px] py-[70px]"
+         class="no-repeat footer flex w-full flex-col items-center gap-0 bg-[url('../assets/images/footerbg.jpg')] bg-cover bg-top bg-no-repeat py-[70px] sm:px-[150px]"
       >
          <div class="flex flex-col items-center">
             <img

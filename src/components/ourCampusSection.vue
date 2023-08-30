@@ -18,32 +18,16 @@
             the exchange of ideas and the pursuit of excellence. Beyond the
             confines of classrooms, students benefit from a myriad of
             extracurricular activities, clubs, and events that encourage them to
-            explore their passions and cultivate leadership qualities. As
-            students progress from one department to another, a sense of
+            explore their passions and cultivate leadership qualities.
+         </p>
+         <p class="w-full flex-auto md:w-1/2">
+            As students progress from one department to another, a sense of
             continuity and shared purpose prevails. The institution's commitment
             to providing a seamless transition from preschool to college
             underscores its dedication to nurturing the growth of each
             individual student. The interplay of departments creates a vibrant
             educational ecosystem where educators collaborate across
             disciplines, ensuring a holistic and integrated learning experience.
-         </p>
-         <p class="w-full flex-auto md:w-1/2">
-            Antonio R Pacheco College Inc. stands firm in its mission to foster
-            a generation of well-rounded individuals equipped to contribute
-            positively to society. Its diverse departments, each tailored to
-            specific stages of learning, lay the foundation for a journey that
-            extends far beyond the classroom. With a rich legacy of educational
-            excellence, the college continues to inspire students to reach their
-            full potential, instilling values that extend beyond academics and
-            into the realm of character development and civic responsibility.
-            Amidst the impressive array of departments, Antonio R Pacheco
-            College Inc. also takes pride in its strong sense of community. The
-            campus serves as a melting pot of cultures, ideas, and experiences,
-            fostering an inclusive atmosphere where students collaborate, learn
-            from one another, and build lifelong friendships. The college's
-            commitment to holistic education extends to creating an environment
-            that nurtures personal growth, cultural appreciation, and global
-            awareness.
          </p>
       </div>
       <el-carousel :interval="2500" type="card" class="mt-12">
