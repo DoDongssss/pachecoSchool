@@ -23,7 +23,7 @@
          <div class="mt-5 flex w-full flex-col items-center gap-1 xl:flex-row">
             <div class="w-full xl:w-1/2">
                <div class="mt-5 flex flex-wrap">
-                  <div class="flex w-1/2 flex-auto gap-4 p-6">
+                  <div class="flex w-full flex-auto gap-4 p-6 md:w-1/2">
                      <div class="w-[50px]">
                         <svg
                            xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@
                         </p>
                      </div>
                   </div>
-                  <div class="flex w-1/2 flex-auto gap-4 p-6">
+                  <div class="flex w-full flex-auto gap-4 p-6 md:w-1/2">
                      <div class="w-[50px]">
                         <svg
                            xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,7 @@
                         </p>
                      </div>
                   </div>
-                  <div class="flex w-1/2 flex-auto gap-4 p-6">
+                  <div class="flex w-full flex-auto gap-4 p-6 md:w-1/2">
                      <div class="w-[50px]">
                         <svg
                            xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@
                         </p>
                      </div>
                   </div>
-                  <div class="flex w-1/2 flex-auto gap-4 p-6">
+                  <div class="flex w-full flex-auto gap-4 p-6 md:w-1/2">
                      <div class="w-[50px]">
                         <svg
                            xmlns="http://www.w3.org/2000/svg"

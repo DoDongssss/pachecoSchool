@@ -22,7 +22,7 @@
          </p>
          <div class="mt-12 flex flex-wrap justify-between gap-6">
             <div
-               class="relative flex min-w-[300px] max-w-[300px] flex-1 flex-col rounded-[5px]"
+               class="relative flex min-w-[250px] max-w-[300px] flex-1 flex-col rounded-[5px]"
             >
                <img
                   src="../assets/images/building.jpg"
@@ -37,7 +37,7 @@
                </p>
             </div>
             <div
-               class="relative flex min-w-[300px] max-w-[300px] flex-1 flex-col rounded-[5px]"
+               class="relative flex min-w-[250px] max-w-[300px] flex-1 flex-col rounded-[5px]"
             >
                <img
                   src="../assets/images/building.jpg"
@@ -52,7 +52,7 @@
                </p>
             </div>
             <div
-               class="relative flex min-w-[300px] max-w-[300px] flex-1 flex-col rounded-[5px]"
+               class="relative flex min-w-[250px] max-w-[300px] flex-1 flex-col rounded-[5px]"
             >
                <img
                   src="../assets/images/building.jpg"

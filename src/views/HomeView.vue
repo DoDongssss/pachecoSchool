@@ -8,7 +8,7 @@
             <taglineBox />
          </div>
          <div
-            class="flex flex-col gap-[150px] p-[100px] px-[75px] lg:px-[150px]"
+            class="flex flex-col gap-[150px] p-[100px] px-[25px] sm:px-[50px] lg:px-[150px]"
          >
             <aboutSection id="about" />
             <competenciesSection />
@@ -75,7 +75,7 @@ export default {
             "education",
             "campus",
             "affiliation",
-            "contacts",
+            "contact",
          ]
 
          for (const section of sections) {

@@ -7,10 +7,10 @@
       </h1>
       <form
          action=""
-         class="mt-12 flex w-[700px] flex-col gap-6"
+         class="mt-12 flex w-full flex-col gap-6 md:w-[700px]"
          @submit.prevent="sendEmail()"
       >
-         <div class="flex w-full gap-6">
+         <div class="flex w-full flex-col gap-6 md:flex-row">
             <div class="flex flex-1 flex-col gap-1">
                <label for="" class="text-[13.5px] font-bold text-gray-500"
                   >FIRSTNAME</label
@@ -32,7 +32,7 @@
                />
             </div>
          </div>
-         <div class="flex w-full gap-6">
+         <div class="flex w-full flex-col gap-6 md:flex-row">
             <div class="flex flex-1 flex-col gap-1">
                <label for="" class="text-[13.5px] font-bold text-gray-500"
                   >EMAIL</label
@@ -54,7 +54,7 @@
                />
             </div>
          </div>
-         <div class="flex w-full gap-6">
+         <div class="flex w-full flex-col gap-6 md:flex-row">
             <div class="flex flex-1 flex-col gap-1">
                <label for="" class="text-[13.5px] font-bold text-gray-500"
                   >ADDRESS</label
@@ -66,7 +66,7 @@
                />
             </div>
          </div>
-         <div class="flex w-full gap-6">
+         <div class="flex w-full flex-col gap-6 md:flex-row">
             <div class="flex flex-1 flex-col">
                <label for="" class="text-[13.5px] font-bold text-gray-500"
                   >MESSAGE</label

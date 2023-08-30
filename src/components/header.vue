@@ -11,7 +11,7 @@
    >
       <div class="h-[8px] w-full bg-primary_dark"></div>
       <div
-         class="sticky top-0 flex h-[80px] w-full items-center justify-between px-[150px] py-3 transition-colors duration-300 ease-in"
+         class="sticky top-0 flex h-[80px] w-full items-center justify-between px-[25px] py-3 transition-colors duration-300 ease-in sm:px-[50px] md:px-[150px]"
          :class="
             prevScrollPos == 0 ? 'bg-[#0a0a0a]/50 text-white' : 'bg-white '
          "

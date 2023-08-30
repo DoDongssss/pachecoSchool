@@ -15,10 +15,14 @@
                PRESCHOOL
             </div> -->
             <div
-               class="collapse-plus collapse w-[calc(50%-12px)] rounded-md border border-gray-200 bg-[url('../assets/images/footerbg.jpg')] bg-cover bg-top text-white shadow-sm"
+               class="collapse collapse-plus w-full rounded-md border border-gray-200 bg-[url('../assets/images/footerbg.jpg')] bg-cover bg-top text-white shadow-sm md:w-[calc(50%-12px)]"
             >
                <input type="checkbox" name="my-accordion-3" />
-               <div class="text-md collapse-title font-[900]">PRESCHOOL</div>
+               <div
+                  class="text-md collapse-title text-center font-[900] md:text-left"
+               >
+                  PRESCHOOL
+               </div>
                <div class="collapse-content">
                   <ul
                      class="text-md ml-6 flex list-disc flex-col gap-2 text-sm font-bold"
@@ -29,10 +33,14 @@
                </div>
             </div>
             <div
-               class="collapse-plus collapse w-[calc(50%-12px)] rounded-md border border-gray-200 bg-[url('../assets/images/footerbg.jpg')] bg-cover bg-top text-white shadow-sm"
+               class="collapse-plus collapse w-full rounded-md border border-gray-200 bg-[url('../assets/images/footerbg.jpg')] bg-cover bg-top text-white shadow-sm md:w-[calc(50%-12px)]"
             >
                <input type="checkbox" name="my-accordion-3" class="z-10" />
-               <div class="text-md collapse-title font-[900]">ELEMENTARY</div>
+               <div
+                  class="text-md collapse-title text-center font-[900] md:text-left"
+               >
+                  ELEMENTARY
+               </div>
                <div class="collapse-content">
                   <ul
                      class="text-md ml-6 flex list-disc flex-col gap-2 text-sm font-bold"
@@ -47,10 +55,14 @@
                </div>
             </div>
             <div
-               class="collapse-plus collapse w-[calc(50%-12px)] rounded-md border border-gray-200 bg-[url('../assets/images/footerbg.jpg')] bg-cover bg-top text-white shadow-sm"
+               class="collapse-plus collapse w-full rounded-md border border-gray-200 bg-[url('../assets/images/footerbg.jpg')] bg-cover bg-top text-white shadow-sm md:w-[calc(50%-12px)]"
             >
                <input type="checkbox" name="my-accordion-3" class="z-10" />
-               <div class="text-md collapse-title font-[900]">JUNIOR HIGH</div>
+               <div
+                  class="text-md collapse-title text-center font-[900] md:text-left"
+               >
+                  JUNIOR HIGH
+               </div>
                <div class="collapse-content">
                   <ul
                      class="text-md ml-6 flex list-disc flex-col gap-2 text-sm font-bold"
@@ -63,10 +75,14 @@
                </div>
             </div>
             <div
-               class="collapse-plus collapse w-[calc(50%-12px)] rounded-md border border-gray-200 bg-[url('../assets/images/footerbg.jpg')] bg-cover bg-top text-white shadow-sm"
+               class="collapse-plus collapse w-full rounded-md border border-gray-200 bg-[url('../assets/images/footerbg.jpg')] bg-cover bg-top text-white shadow-sm md:w-[calc(50%-12px)]"
             >
                <input type="checkbox" name="my-accordion-3" class="z-10" />
-               <div class="text-md collapse-title font-[900]">SENIOR HIGH</div>
+               <div
+                  class="text-md collapse-title text-center font-[900] md:text-left"
+               >
+                  SENIOR HIGH
+               </div>
                <div class="collapse-content">
                   <ul
                      class="text-md ml-6 flex list-disc flex-col gap-2 text-sm font-bold"

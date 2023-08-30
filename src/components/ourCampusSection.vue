@@ -7,8 +7,10 @@
             OUR CAMPUS
          </h1>
       </div>
-      <div class="mt-8 flex gap-12 text-justify text-[1.1rem]">
-         <p class="w-1/2 flex-auto">
+      <div
+         class="mt-8 flex flex-col gap-12 text-justify text-[1.1rem] md:flex-row"
+      >
+         <p class="w-full flex-auto md:w-1/2">
             Antonio R Pacheco College Inc. has established itself as a true
             educational haven, fostering an environment where students not only
             gain knowledge but also develop essential life skills. The campus is
@@ -25,7 +27,7 @@
             educational ecosystem where educators collaborate across
             disciplines, ensuring a holistic and integrated learning experience.
          </p>
-         <p class="w-1/2 flex-auto">
+         <p class="w-full flex-auto md:w-1/2">
             Antonio R Pacheco College Inc. stands firm in its mission to foster
             a generation of well-rounded individuals equipped to contribute
             positively to society. Its diverse departments, each tailored to
@@ -44,7 +46,7 @@
             awareness.
          </p>
       </div>
-      <el-carousel :interval="1250" type="card" class="mt-12">
+      <el-carousel :interval="2500" type="card" class="mt-12">
          <el-carousel-item v-for="item in items" :key="item" class="rounded-sm">
             <!-- <h3 text="2xl" justify="center">{{ item.src }}</h3> -->
             <img
