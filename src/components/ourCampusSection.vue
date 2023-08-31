@@ -30,16 +30,39 @@
             disciplines, ensuring a holistic and integrated learning experience.
          </p>
       </div>
-      <el-carousel :interval="2500" type="card" class="mt-12">
-         <el-carousel-item v-for="item in items" :key="item" class="rounded-sm">
-            <!-- <h3 text="2xl" justify="center">{{ item.src }}</h3> -->
-            <img
-               :src="'../src/assets/images/campus/' + item.src"
-               alt="Static Image"
-            />
-            <!-- <img src="../assets/images/campus/1.jpg" alt="Dynamic Image" /> -->
-         </el-carousel-item>
-      </el-carousel>
+      <div class="hidden md:block">
+         <el-carousel :interval="3500" type="card" class="mt-12">
+            <el-carousel-item
+               v-for="item in items"
+               :key="item"
+               class="rounded-sm"
+            >
+               <!-- <h3 text="2xl" justify="center">{{ item.src }}</h3> -->
+               <img
+                  :src="'../src/assets/images/campus/' + item.src"
+                  alt="Static Image"
+               />
+               <!-- <img src="../assets/images/campus/1.jpg" alt="Dynamic Image" /> -->
+            </el-carousel-item>
+         </el-carousel>
+      </div>
+
+      <div class="block md:hidden">
+         <el-carousel :interval="3500" class="mt-12 h-[250px] rounded-md">
+            <el-carousel-item
+               v-for="item in items"
+               :key="item"
+               class="rounded-sm"
+            >
+               <!-- <h3 text="2xl" justify="center">{{ item.src }}</h3> -->
+               <img
+                  :src="'../src/assets/images/campus/' + item.src"
+                  alt="Static Image"
+               />
+               <!-- <img src="../assets/images/campus/1.jpg" alt="Dynamic Image" /> -->
+            </el-carousel-item>
+         </el-carousel>
+      </div>
    </section>
 </template>
 
@@ -101,5 +124,11 @@ export default {
 
 .el-carousel__item:nth-child(2n + 1) {
    background-color: #d3dce6;
+}
+
+@media screen and (max-width: 600px) {
+   .el-carousel__indicator.el-carousel__indicator--horizontal {
+      display: none;
+   }
 }
 </style>
