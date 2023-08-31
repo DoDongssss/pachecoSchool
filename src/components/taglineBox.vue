@@ -7,12 +7,12 @@
             : 'translate-y-10 opacity-0'
       "
    >
-      <div class="sm max-w-[1000px] px-6">
+      <div class="max-w-[1000px] px-6 sm:px-0">
          <div
             class="flex flex-col gap-5 rounded-md bg-primary p-6 text-white shadow-lg"
          >
             <h1
-               class="rounded-md text-center text-sm font-semibold italic sm:text-[1.7vw]"
+               class="rounded-md text-center text-sm font-semibold italic leading-snug sm:text-[1.7vw]"
             >
                Empowering Minds, Shaping Futures, Together at Pacheco College.
             </h1>
