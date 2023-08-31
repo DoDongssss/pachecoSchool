@@ -5,7 +5,7 @@
          direction="vertical"
          trigger="click"
          :interval="5000"
-         :autoplay="true"
+         :autoplay="false"
       >
          <el-carousel-item v-for="(items, index) in carousel" class="h-full">
             <div class="relative flex h-full items-center justify-center">
@@ -59,15 +59,43 @@
                      ANTONIO R. PACHECO COLLEGE, INC.
                   </h1>
                   <button
-                     class="text-md mt-6 rounded-full border-2 border-primary_dark px-8 py-3 text-white shadow-md transition-[background] hover:bg-primary_darker sm:text-xl"
+                     class="text-md mt-6 rounded-full border-2 border-[#089642] px-8 py-3 text-white shadow-md transition-[background] hover:bg-[#089642] sm:text-xl"
                   >
                      <a href="#contact"> Inquire us </a>
                   </button>
                </div>
                <!-- second section of the carousel -->
-               <div class="z-10 p-6" v-if="index == 1"></div>
+               <div
+                  class="z-10 flex h-full w-full flex-col items-end justify-center p-6 px-[150px]"
+                  v-if="index === 1"
+               >
+                  <h1 class="text-6xl font-[900] text-white">EDUCATION</h1>
+                  <p class="mt-5 text-right text-5xl leading-snug text-white">
+                     Shaping Bright Futures with a foundation of Excellence in
+                     education
+                  </p>
+                  <button
+                     class="text-md mt-6 rounded-lg bg-primary px-8 py-3 text-white shadow-md transition-[background] hover:bg-[#159d39] sm:text-xl"
+                  >
+                     <a href="#education"> Offering </a>
+                  </button>
+               </div>
                <!-- third section of the carousel -->
-               <div class="z-10 p-6" v-if="index == 2"></div>
+               <div
+                  class="z-10 flex h-full w-full flex-col items-start justify-center p-6 px-[150px]"
+                  v-if="index === 2"
+               >
+                  <h1 class="text-6xl font-[900] text-white">EVENTS</h1>
+                  <p class="mt-5 text-left text-5xl leading-snug text-white">
+                     Nurturing minds through sports and beyond: Fostering
+                     Holistic Excellence in Education.
+                  </p>
+                  <button
+                     class="text-md mt-6 rounded-lg bg-primary px-8 py-3 text-white shadow-md transition-[background] hover:bg-[#159d39] sm:text-xl"
+                  >
+                     <a href="#education"> EVENTS/SPORT </a>
+                  </button>
+               </div>
             </div>
          </el-carousel-item>
       </el-carousel>

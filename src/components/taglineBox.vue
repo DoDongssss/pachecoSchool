@@ -8,7 +8,9 @@
       "
    >
       <div class="max-w-[1000px]">
-         <div class="flex flex-col gap-5 bg-primary p-6 text-white shadow-lg">
+         <div
+            class="flex flex-col gap-5 rounded-md bg-primary p-6 text-white shadow-lg"
+         >
             <h1
                class="rounded-md text-center text-[1.7vw] font-semibold italic"
             >

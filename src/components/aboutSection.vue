@@ -2,7 +2,7 @@
    <section>
       <div class="flex w-full flex-col">
          <h1
-            class="w-fit border-b border-blue-400/30 pb-2 text-left text-2xl font-[900] text-primary_darker"
+            class="w-fit border-b border-blue-400/30 pb-2 text-left text-2xl font-[900] text-primary"
          >
             ABOUT
          </h1>
@@ -27,7 +27,7 @@
                      <div class="w-[50px]">
                         <svg
                            xmlns="http://www.w3.org/2000/svg"
-                           class="h-8 w-8 fill-primary"
+                           class="h-8 w-8 fill-[#f59d39]"
                            viewBox="0 0 512 512"
                         >
                            <path
@@ -47,7 +47,7 @@
                      <div class="w-[50px]">
                         <svg
                            xmlns="http://www.w3.org/2000/svg"
-                           class="h-8 w-8 fill-primary"
+                           class="h-8 w-8 fill-[#f59d39]"
                            viewBox="0 0 640 512"
                         >
                            <path
@@ -68,7 +68,7 @@
                      <div class="w-[50px]">
                         <svg
                            xmlns="http://www.w3.org/2000/svg"
-                           class="h-8 w-8 fill-primary"
+                           class="h-8 w-8 fill-[#f59d39]"
                            viewBox="0 0 576 512"
                         >
                            <path
@@ -88,7 +88,7 @@
                      <div class="w-[50px]">
                         <svg
                            xmlns="http://www.w3.org/2000/svg"
-                           class="h-8 w-8 fill-primary"
+                           class="h-8 w-8 fill-[#f59d39]"
                            viewBox="0 0 512 512"
                         >
                            <path

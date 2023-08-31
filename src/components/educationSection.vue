@@ -2,7 +2,7 @@
    <section>
       <div class="flex flex-col">
          <h1
-            class="w-fit border-b border-blue-400/30 pb-2 text-left text-xl font-[900] text-primary_darker"
+            class="w-fit border-b border-blue-400/30 pb-2 text-left text-xl font-[900] text-primary"
          >
             ACEDEMIC PROGRAMS
          </h1>
@@ -15,7 +15,7 @@
                PRESCHOOL
             </div> -->
             <div
-               class="collapse-plus collapse w-full rounded-md border border-gray-200 bg-[url('../assets/images/footerbg.jpg')] bg-cover bg-top text-white shadow-sm md:w-[calc(50%-12px)]"
+               class="collapse collapse-plus w-full rounded-md border border-gray-200 bg-[url('../assets/images/footerbg.jpg')] bg-cover bg-top text-white shadow-sm md:w-[calc(50%-12px)]"
             >
                <input type="checkbox" name="my-accordion-3" />
                <div
@@ -99,7 +99,7 @@
                <div class="collapse-title text-center text-lg font-[900]">
                   COLLEGE
                </div>
-               <div class="collapse-content flex flex-col gap-0">
+               <div class="collapse-content flex flex-col gap-0 md:flex-row">
                   <div
                      class="mt-6 flex w-full items-start justify-center md:w-1/2"
                   >

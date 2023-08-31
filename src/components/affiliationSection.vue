@@ -1,7 +1,7 @@
 <template>
    <section>
       <h1
-         class="w-fit border-b border-blue-400/30 pb-2 text-left text-xl font-[900] text-primary_darker"
+         class="w-fit border-b border-blue-400/30 pb-2 text-left text-xl font-[900] text-primary"
       >
          ACCREDITATIONS & AFFILIATIONS
       </h1>
@@ -22,13 +22,15 @@
          </p>
          <div class="mt-12 flex flex-wrap justify-between gap-6">
             <div
-               class="relative flex min-w-[270px] max-w-[370px] flex-1 flex-col rounded-[5px]"
+               class="relative flex min-w-[270px] max-w-[370px] flex-1 flex-col"
             >
-               <img
-                  src="../assets/images/building.jpg"
-                  alt=""
-                  class="rounded-lg"
-               />
+               <div class="h-[250px] overflow-hidden rounded-[5px]">
+                  <img
+                     src="../assets/images/building.jpg"
+                     alt=""
+                     class="cursor-pointer rounded-lg transition-all hover:scale-110"
+                  />
+               </div>
                <h5 class="mt-6 text-lg font-bold">AWARD 1</h5>
                <p class="mt-2">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -37,13 +39,15 @@
                </p>
             </div>
             <div
-               class="relative flex min-w-[270px] max-w-[370px] flex-1 flex-col rounded-[5px]"
+               class="relative flex min-w-[270px] max-w-[370px] flex-1 flex-col"
             >
-               <img
-                  src="../assets/images/building.jpg"
-                  alt=""
-                  class="rounded-lg"
-               />
+               <div class="h-[250px] overflow-hidden rounded-[5px]">
+                  <img
+                     src="../assets/images/building.jpg"
+                     alt=""
+                     class="cursor-pointer rounded-lg transition-all hover:scale-110"
+                  />
+               </div>
                <h5 class="mt-6 text-lg font-bold">AWARD 2</h5>
                <p class="mt-2">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -52,13 +56,15 @@
                </p>
             </div>
             <div
-               class="relative flex min-w-[270px] max-w-[370px] flex-1 flex-col rounded-[5px]"
+               class="relative flex min-w-[270px] max-w-[370px] flex-1 flex-col"
             >
-               <img
-                  src="../assets/images/building.jpg"
-                  alt=""
-                  class="rounded-lg"
-               />
+               <div class="h-[250px] overflow-hidden rounded-[5px]">
+                  <img
+                     src="../assets/images/building.jpg"
+                     alt=""
+                     class="cursor-pointer rounded-lg transition-all hover:scale-110"
+                  />
+               </div>
                <h5 class="mt-6 text-lg font-bold">AWARD 3</h5>
                <p class="mt-2">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.

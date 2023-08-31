@@ -6,7 +6,7 @@
 	:root{
 		--color-primary-lighter: 153 155 255;
 		--color-primary-light: 102 105 255;
-		--color-primary: 70 73 255;
+		--color-primary: 43 48 140;
 		--color-primary-dark: 26 29 255;
 		--color-primary-darker: 0 4 230;
 		--color-secondary-lighter: 250 30 30;
@@ -16,6 +16,15 @@
 		--color-secondary-darker: 100 2 2;
 	}
 }
+
+/* color pallete */
+/*
+ 	#2b308c
+	#f59d39
+	#089642
+	#f0f32f
+*/
+
 
 @font-face {
 	font-family: montserrat;

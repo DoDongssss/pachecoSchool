@@ -7,7 +7,7 @@
             <div class="flex w-full justify-center">
                <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-[55px] w-[55px] fill-primary"
+                  class="h-[55px] w-[55px] fill-[#f59d39]"
                   viewBox="0 0 512 512"
                >
                   <path
@@ -15,7 +15,7 @@
                   />
                </svg>
             </div>
-            <h2 class="mt-10 text-lg font-bold text-black">MISSION</h2>
+            <h2 class="mt-10 text-lg font-bold text-primary">MISSION</h2>
             <p class="mt-2 text-justify">
                Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
                adipisicing elit. Cupiditate minus fugiat accusamus labore unde
@@ -31,7 +31,7 @@
             <div class="flex w-full justify-center">
                <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-[55px] w-[55px] fill-primary"
+                  class="h-[55px] w-[55px] fill-[#f59d39]"
                   viewBox="0 0 576 512"
                >
                   <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -40,7 +40,7 @@
                   />
                </svg>
             </div>
-            <h2 class="mt-10 text-lg font-bold text-black">VISION</h2>
+            <h2 class="mt-10 text-lg font-bold text-primary">VISION</h2>
             <p class="mt-2 text-justify">
                Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
                adipisicing elit. Cupiditate minus fugiat accusamus labore unde
@@ -57,7 +57,7 @@
             <div class="flex w-full justify-center">
                <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-[55px] w-[55px] fill-primary"
+                  class="h-[55px] w-[55px] fill-[#f59d39]"
                   viewBox="0 0 512 512"
                >
                   <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -66,7 +66,7 @@
                   />
                </svg>
             </div>
-            <h2 class="mt-10 text-lg font-bold text-black">CORE VALUES</h2>
+            <h2 class="mt-10 text-lg font-bold text-primary">CORE VALUES</h2>
             <p class="mt-2 text-justify">
                Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
                adipisicing elit. Cupiditate minus fugiat accusamus labore unde

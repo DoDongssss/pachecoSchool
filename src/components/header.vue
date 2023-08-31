@@ -9,12 +9,10 @@
             : 'translate-y-[-100%] opacity-0'
       "
    >
-      <div class="h-[8px] w-full bg-primary_dark"></div>
+      <div class="h-[8px] w-full bg-primary"></div>
       <div
          class="sticky top-0 flex h-[80px] w-full items-center justify-between px-[25px] py-3 transition-colors duration-300 ease-in sm:px-[50px] md:px-[150px]"
-         :class="
-            prevScrollPos == 0 ? 'bg-[#0a0a0a]/50 text-white' : 'bg-white '
-         "
+         :class="prevScrollPos == 0 ? 'bg-black/0 text-white' : 'bg-white '"
       >
          <div class="flex items-center">
             <img
@@ -29,41 +27,37 @@
          <div class="hidden gap-6 lg:flex">
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
-               :class="sectionRecieve == 'home' ? 'text-primary_darker' : ''"
+               :class="sectionRecieve == 'home' ? 'text-primary' : ''"
             >
                <a href="#home"> Home</a>
             </li>
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
-               :class="sectionRecieve == 'about' ? 'text-primary_darker' : ''"
+               :class="sectionRecieve == 'about' ? 'text-primary' : ''"
             >
                <a href="#about">About</a>
             </li>
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
-               :class="
-                  sectionRecieve == 'education' ? 'text-primary_darker' : ''
-               "
+               :class="sectionRecieve == 'education' ? 'text-primary' : ''"
             >
                <a href="#education">Education</a>
             </li>
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
-               :class="sectionRecieve == 'campus' ? 'text-primary_darker' : ''"
+               :class="sectionRecieve == 'campus' ? 'text-primary' : ''"
             >
                <a href="#campus">Campus</a>
             </li>
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
-               :class="
-                  sectionRecieve == 'affiliation' ? 'text-primary_darker' : ''
-               "
+               :class="sectionRecieve == 'affiliation' ? 'text-primary' : ''"
             >
                <a href="#affiliation">Affiliations</a>
             </li>
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
-               :class="sectionRecieve == 'contact' ? 'text-primary_darker' : ''"
+               :class="sectionRecieve == 'contact' ? 'text-primary' : ''"
             >
                <a href="#contact">Contact</a>
             </li>
@@ -90,18 +84,14 @@
                <li>
                   <a
                      href="#home"
-                     :class="
-                        sectionRecieve == 'home' ? 'text-primary_darker' : ''
-                     "
+                     :class="sectionRecieve == 'home' ? 'text-primary' : ''"
                      >Home</a
                   >
                </li>
                <li>
                   <a
                      href="#about"
-                     :class="
-                        sectionRecieve == 'about' ? 'text-primary_darker' : ''
-                     "
+                     :class="sectionRecieve == 'about' ? 'text-primary' : ''"
                      >About</a
                   >
                </li>
@@ -109,9 +99,7 @@
                   <a
                      href="#education"
                      :class="
-                        sectionRecieve == 'education'
-                           ? 'text-primary_darker'
-                           : ''
+                        sectionRecieve == 'education' ? 'text-primary' : ''
                      "
                      >Education</a
                   >
@@ -119,9 +107,7 @@
                <li>
                   <a
                      href="#campus"
-                     :class="
-                        sectionRecieve == 'campus' ? 'text-primary_darker' : ''
-                     "
+                     :class="sectionRecieve == 'campus' ? 'text-primary' : ''"
                      >Campus</a
                   >
                </li>
@@ -129,9 +115,7 @@
                   <a
                      href="#affiliation"
                      :class="
-                        sectionRecieve == 'affiliation'
-                           ? 'text-primary_darker'
-                           : ''
+                        sectionRecieve == 'affiliation' ? 'text-primary' : ''
                      "
                      >Affiliation</a
                   >
@@ -139,9 +123,7 @@
                <li>
                   <a
                      href="contact"
-                     :class="
-                        sectionRecieve == 'contact' ? 'text-primary_darker' : ''
-                     "
+                     :class="sectionRecieve == 'contact' ? 'text-primary' : ''"
                      >Contact</a
                   >
                </li>

@@ -2,7 +2,7 @@
    <section class="flex w-full flex-col">
       <div class="flex items-center justify-center">
          <h1
-            class="border-b border-blue-400/30 pb-2 text-2xl font-[900] text-primary_darker"
+            class="border-b border-blue-400/30 pb-2 text-2xl font-[900] text-primary"
          >
             OUR CAMPUS
          </h1>

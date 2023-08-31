@@ -1,7 +1,7 @@
 <template>
    <section class="flex flex-col items-center justify-center">
       <h1
-         class="border-b border-blue-400/30 pb-2 text-4xl font-bold text-primary_darker"
+         class="border-b border-blue-400/30 pb-2 text-4xl font-bold text-primary"
       >
          CONTACT US
       </h1>

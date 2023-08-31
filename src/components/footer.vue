@@ -1,6 +1,6 @@
 <template>
    <footer
-      class="fixed bottom-0 left-0 right-0 z-0 w-full bg-primary text-primary-content"
+      class="fixed bottom-0 left-0 right-0 z-0 w-full bg-primary text-white"
    >
       <div
          class="no-repeat footer flex w-full flex-col items-center gap-0 bg-[url('../assets/images/footerbg.jpg')] bg-cover bg-top bg-no-repeat py-[70px] sm:px-[150px]"
@@ -102,7 +102,10 @@
                         />
                      </svg>
                   </a>
-                  <a href="">
+                  <a
+                     href="https://www.facebook.com/AntonioRPachecoCollegeInc"
+                     target="_blank"
+                  >
                      <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-6 w-6 fill-white"
@@ -129,7 +132,7 @@
       </div>
 
       <div
-         class="flex h-[66px] w-full flex-col items-center justify-center bg-primary_darker text-[11px] sm:text-sm"
+         class="flex h-[66px] w-full flex-col items-center justify-center bg-primary text-[11px] sm:text-sm"
       >
          <div class="flex gap-3 font-semibold">
             <p class="cursor-pointer">Terms & Conditions</p>
