@@ -12,6 +12,26 @@
          >
             <aboutSection id="about" />
             <competenciesSection />
+         </div>
+         <div
+            class="flex h-screen flex-col items-center justify-center bg-primary/10"
+         >
+            <p class="max-w-[1000px] text-center text-[45px] leading-relaxed">
+               "At <span class="font-bold text-primary">ARPCI</span> we care
+               about building a vibrant learning community where
+               <span class="font-bold text-primary"
+                  >all students are challlenged and en engaged."</span
+               >
+            </p>
+            <button
+               class="transition-bg mt-12 rounded-sm bg-primary px-6 py-3 text-lg font-semibold text-white duration-300 ease-linear hover:bg-[#089642]"
+            >
+               <a href="#about">KNOW MORE</a>
+            </button>
+         </div>
+         <div
+            class="flex flex-col gap-[150px] p-[100px] px-[25px] sm:px-[50px] lg:px-[150px]"
+         >
             <educationSection id="education" />
             <ourCampusSection id="campus" />
             <affiliationSection id="affiliation" />
@@ -87,7 +107,6 @@ export default {
                   rect.bottom >= window.innerHeight / 2
                ) {
                   this.activeSection = section
-                  console.log(this.activeSection)
                   break
                }
             }

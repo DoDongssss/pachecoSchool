@@ -7,7 +7,7 @@
             ABOUT
          </h1>
          <div class="flex flex-col">
-            <h2 class="mt-4">
+            <h2 class="mt-4 text-justify">
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
                esse ipsum, excepturi assumenda earum obcaecati cupiditate! Totam
                eos doloribus corrupti tempora sapiente, rem recusandae eaque
@@ -37,7 +37,7 @@
                      </div>
                      <div class="flex flex-col">
                         <h2 class="font-bold">HISTORY</h2>
-                        <p class="mt-2">
+                        <p class="mt-2 text-justify">
                            Lorem ipsum, dolor sit amet consectetur adipisicing
                            elit. Tenetur obcaecati doloribu
                         </p>
@@ -57,7 +57,7 @@
                      </div>
                      <div class="flex flex-col">
                         <h2 class="font-bold">SCHOLARSHIP</h2>
-                        <p class="mt-2">
+                        <p class="mt-2 text-justify">
                            The ARPCI also offers different scholarship grants or
                            financial assistance to qualified and deserving
                            students.
@@ -78,7 +78,7 @@
                      </div>
                      <div class="flex flex-col">
                         <h2 class="font-bold">ADMISSION</h2>
-                        <p class="mt-2">
+                        <p class="mt-2 text-justify">
                            Know more about our admission process and
                            requirements and become a part of the ARPCI.
                         </p>
@@ -98,7 +98,7 @@
                      </div>
                      <div class="flex flex-col">
                         <h2 class="font-bold">NEWS</h2>
-                        <p class="mt-2">
+                        <p class="mt-2 text-justify">
                            Access all the news and information you want no
                            matter where you are in the world.
                         </p>
