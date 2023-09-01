@@ -2,8 +2,11 @@
    <section>
       <div class="flex flex-wrap gap-6">
          <div
-            class="relative flex min-w-[300px] flex-1 flex-col rounded-[20px] bg-gray-100 px-8 py-6 shadow-sm"
+            class="card-container hover:rounded-t-0 all r relative flex min-w-[300px] flex-1 cursor-pointer flex-col overflow-hidden rounded-[20px] rounded-b-[20px] bg-gray-100 px-8 py-6 transition-all hover:bg-none"
          >
+            <div
+               class="card-overlay absolute bottom-0 left-0 right-0 z-10 h-full w-full translate-y-[100%] transition-all duration-300 ease-in-out"
+            ></div>
             <div class="flex w-full justify-center">
                <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +29,7 @@
             </p>
          </div>
          <div
-            class="relative flex min-w-[300px] flex-1 flex-col rounded-[20px] bg-gray-100 px-8 py-6 shadow-sm"
+            class="relative flex min-w-[300px] flex-1 flex-col rounded-[20px] bg-gray-100 px-8 py-6 shadow-md"
          >
             <div class="flex w-full justify-center">
                <svg
@@ -88,4 +91,15 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+.card-container:hover .card-overlay {
+   transform: translateY(0);
+   background: rgb(43, 48, 140);
+   background: linear-gradient(
+      365deg,
+      rgba(43, 48, 140, 0.5) 0%,
+      rgba(43, 48, 140, 0.25) 40%,
+      rgba(255, 255, 255, 0) 81%
+   );
+}
+</style>

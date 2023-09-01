@@ -24,12 +24,19 @@
             <div
                class="relative flex min-w-[270px] max-w-[370px] flex-1 flex-col"
             >
-               <div class="h-[250px] overflow-hidden rounded-[5px]">
+               <div
+                  class="rounded-[5px image-container relative h-[250px] cursor-pointer overflow-hidden"
+               >
                   <img
                      src="../assets/images/building.jpg"
                      alt=""
-                     class="cursor-pointer rounded-lg transition-all hover:scale-110"
+                     class="rounded-lg transition-all duration-[400ms]"
                   />
+                  <span
+                     class="absolute bottom-0 left-0 right-0 z-10 flex h-full w-full translate-y-[100%] items-center justify-center text-4xl font-[900] text-white transition-all duration-[300ms] ease-linear"
+                  >
+                     Oct. 07, 2023</span
+                  >
                </div>
                <h5 class="mt-6 text-lg font-bold">AWARD 1</h5>
                <p class="mt-2">
@@ -41,14 +48,21 @@
             <div
                class="relative flex min-w-[270px] max-w-[370px] flex-1 flex-col"
             >
-               <div class="h-[250px] overflow-hidden rounded-[5px]">
+               <div
+                  class="rounded-[5px image-container relative h-[250px] cursor-pointer overflow-hidden"
+               >
                   <img
                      src="../assets/images/building.jpg"
                      alt=""
-                     class="cursor-pointer rounded-lg transition-all hover:scale-110"
+                     class="rounded-lg transition-all duration-[400ms]"
                   />
+                  <span
+                     class="absolute bottom-0 left-0 right-0 z-10 flex h-full w-full translate-y-[100%] items-center justify-center text-4xl font-[900] text-white transition-all duration-[300ms] ease-linear"
+                  >
+                     Oct. 07, 2023</span
+                  >
                </div>
-               <h5 class="mt-6 text-lg font-bold">AWARD 2</h5>
+               <h5 class="mt-6 text-lg font-bold">AWARD 3</h5>
                <p class="mt-2">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Quaerat, ratione. Lorem ipsum dolor sit amet consectetur
@@ -58,14 +72,21 @@
             <div
                class="relative flex min-w-[270px] max-w-[370px] flex-1 flex-col"
             >
-               <div class="h-[250px] overflow-hidden rounded-[5px]">
+               <div
+                  class="rounded-[5px image-container relative h-[250px] cursor-pointer overflow-hidden"
+               >
                   <img
                      src="../assets/images/building.jpg"
                      alt=""
-                     class="cursor-pointer rounded-lg transition-all hover:scale-110"
+                     class="rounded-lg transition-all duration-[400ms]"
                   />
+                  <span
+                     class="absolute bottom-0 left-0 right-0 z-10 flex h-full w-full translate-y-[100%] items-center justify-center text-4xl font-[900] text-white transition-all duration-[300ms] ease-linear"
+                  >
+                     Oct. 07, 2023</span
+                  >
                </div>
-               <h5 class="mt-6 text-lg font-bold">AWARD 3</h5>
+               <h5 class="mt-6 text-lg font-bold">AWARD 2</h5>
                <p class="mt-2">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Quaerat, ratione. Lorem ipsum dolor sit amet consectetur
@@ -85,4 +106,17 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+.image-container:hover img {
+   transform: scale(1.2);
+}
+.image-container:hover span {
+   background: rgb(43, 48, 140);
+   background: linear-gradient(
+      365deg,
+      rgba(43, 48, 140, 0.75) 0%,
+      rgba(175, 198, 233, 0) 100%
+   );
+   transform: translateY(0);
+}
+</style>
