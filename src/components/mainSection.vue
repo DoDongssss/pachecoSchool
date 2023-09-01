@@ -7,16 +7,15 @@
          :interval="5000"
          :autoplay="true"
       >
-         <el-carousel-item v-for="(items, index) in carousel" class="h-full">
+         <el-carousel-item v-for="(items, index) in slides" class="h-full">
             <div class="relative flex h-full items-center justify-center">
                <div class="absolute inset-0 h-full w-full">
                   <img
-                     src="../assets/images/slide3.jpg"
+                     :src="'/slides/' + items.src"
                      alt=""
                      class="h-full w-full"
-                     v-if="index === 0"
                   />
-                  <img
+                  <!-- <img
                      src="../assets/images/slide2.jpg"
                      alt=""
                      class="h-full w-full"
@@ -27,7 +26,7 @@
                      alt=""
                      class="h-full w-full"
                      v-if="index === 2"
-                  />
+                  /> -->
 
                   <!-- <img
                      src="../assets/images/slide1.jpg"
@@ -114,22 +113,19 @@
 export default {
    components: {},
    setup() {
-      const carousel = [
+      const slides = [
          {
-            image: "../assets/images/slide1.jpg",
-            content: "number2",
+            src: "slide1.jpg",
          },
          {
-            image: "../assets/images/slide2.jpg",
-            content: "number2",
+            src: "slide2.jpg",
          },
          {
-            image: "../assets/images/slide3.jpg",
-            content: "number2",
+            src: "slide3.jpg",
          },
       ]
       return {
-         carousel,
+         slides,
       }
    },
 }
