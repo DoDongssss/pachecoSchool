@@ -56,7 +56,7 @@
             >
                <!-- <h3 text="2xl" justify="center">{{ item.src }}</h3> -->
                <img
-                  :src="'../src/assets/images/campus/' + item.src"
+                  src="../assets/images/campus/{{ item.src }}"
                   alt="Static Image"
                />
                <!-- <img src="../assets/images/campus/1.jpg" alt="Dynamic Image" /> -->
