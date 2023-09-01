@@ -38,8 +38,8 @@
                class="rounded-sm"
             >
                <!-- <h3 text="2xl" justify="center">{{ item.src }}</h3> -->
-               <img :src="'../assets/images/campus/' + item.src" alt="binded" />
-               <img src="'../assets/images/campus/1.jpg" alt="not bind" />
+               <img :src="'../assets/images/campus/' + item.src" alt="" />
+               <img src="'../assets/images/campus/1.jpg" alt="" />
             </el-carousel-item>
          </el-carousel>
       </div>
