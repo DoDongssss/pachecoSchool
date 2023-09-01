@@ -7,7 +7,7 @@
             <div class="flex w-full justify-center">
                <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-[55px] w-[55px] fill-[#f59d39]"
+                  class="h-[55px] w-[55px] fill-primary"
                   viewBox="0 0 512 512"
                >
                   <path
@@ -31,7 +31,7 @@
             <div class="flex w-full justify-center">
                <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-[55px] w-[55px] fill-[#f59d39]"
+                  class="h-[55px] w-[55px] fill-primary"
                   viewBox="0 0 576 512"
                >
                   <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -57,7 +57,7 @@
             <div class="flex w-full justify-center">
                <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-[55px] w-[55px] fill-[#f59d39]"
+                  class="h-[55px] w-[55px] fill-primary"
                   viewBox="0 0 512 512"
                >
                   <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->

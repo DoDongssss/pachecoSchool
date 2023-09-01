@@ -5,36 +5,36 @@
       </h1>
       <p class="mt-12">Effective Date: [date]</p>
       <p class="mt-12">
-         Thank you for visiting Eulap SMS, our static website designed to
-         provide information about our SMS services. This Privacy Policy is
-         intended to inform you that Eulap SMS does not collect, use, or store
-         any personal information while you browse or interact with our website.
-         Please take a moment to review this policy before proceeding.
+         Thank you for visiting ARPCI, our static website designed to provide
+         information about our SMS services. This Privacy Policy is intended to
+         inform you that ARPCI does not collect, use, or store any personal
+         information while you browse or interact with our website. Please take
+         a moment to review this policy before proceeding.
       </p>
       <div class="mt-6 flex flex-col gap-3">
          <h2 class="font-semibold text-primary_dark">1. Data Collection:</h2>
          <p>
-            Eulap SMS is a static website that does not collect any personal
-            data from visitors. We do not use cookies, tracking technologies, or
-            any other means to gather personal information about you during your
+            ARPCI is a static website that does not collect any personal data
+            from visitors. We do not use cookies, tracking technologies, or any
+            other means to gather personal information about you during your
             visit.
          </p>
       </div>
       <div class="mt-6 flex flex-col gap-3">
          <h2 class="font-semibold text-primary_dark">2. External Links:</h2>
          <p>
-            Eulap SMS may contain links to external websites that are not
-            operated by us. We are not responsible for the privacy practices or
-            content of these third-party websites. We encourage you to review
-            the privacy policies of those websites before providing any personal
+            ARPCI may contain links to external websites that are not operated
+            by us. We are not responsible for the privacy practices or content
+            of these third-party websites. We encourage you to review the
+            privacy policies of those websites before providing any personal
             information.
          </p>
       </div>
       <div class="mt-6 flex flex-col gap-3">
          <h2 class="font-semibold text-primary_dark">3. Children's Privacy:</h2>
          <p>
-            Eulap SMS is not intended for individuals under the age of [minimum
-            age according to local regulations]. We do not knowingly collect
+            ARPCI is not intended for individuals under the age of [minimum age
+            according to local regulations]. We do not knowingly collect
             personal information from children. If we become aware that a child
             under the specified age has provided us with personal information,
             we will take steps to delete such information promptly.
@@ -55,19 +55,18 @@
          <h2 class="font-semibold text-primary_dark">5. Contact Us:</h2>
          <p>
             If you have any questions or concerns regarding this Privacy Policy
-            or the practices of Eulap SMS, please contact us at companyemail /
+            or the practices of ARPCI, please contact us at companyemail /
             company .
          </p>
       </div>
       <p class="mt-12">
-         By accessing and using Eulap SMS, you acknowledge that you have read
-         and understood this Privacy Policy and that we do not collect any
-         personal information from you.
+         By accessing and using ARPCI, you acknowledge that you have read and
+         understood this Privacy Policy and that we do not collect any personal
+         information from you.
       </p>
       <p class="mt-6">
-         This Privacy Policy applies only to Eulap SMS, our static website, and
-         does not extend to any external websites that may be linked from our
-         pages.
+         This Privacy Policy applies only to ARPCI, our static website, and does
+         not extend to any external websites that may be linked from our pages.
       </p>
    </div>
 </template>

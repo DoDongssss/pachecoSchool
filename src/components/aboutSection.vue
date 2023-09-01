@@ -27,7 +27,7 @@
                      <div class="w-[50px]">
                         <svg
                            xmlns="http://www.w3.org/2000/svg"
-                           class="h-8 w-8 fill-[#f59d39]"
+                           class="h-8 w-8 fill-primary"
                            viewBox="0 0 512 512"
                         >
                            <path
@@ -47,7 +47,7 @@
                      <div class="w-[50px]">
                         <svg
                            xmlns="http://www.w3.org/2000/svg"
-                           class="h-8 w-8 fill-[#f59d39]"
+                           class="h-8 w-8 fill-primary"
                            viewBox="0 0 640 512"
                         >
                            <path
@@ -68,7 +68,7 @@
                      <div class="w-[50px]">
                         <svg
                            xmlns="http://www.w3.org/2000/svg"
-                           class="h-8 w-8 fill-[#f59d39]"
+                           class="h-8 w-8 fill-primary"
                            viewBox="0 0 576 512"
                         >
                            <path
@@ -88,7 +88,7 @@
                      <div class="w-[50px]">
                         <svg
                            xmlns="http://www.w3.org/2000/svg"
-                           class="h-8 w-8 fill-[#f59d39]"
+                           class="h-8 w-8 fill-primary"
                            viewBox="0 0 512 512"
                         >
                            <path
