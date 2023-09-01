@@ -48,7 +48,7 @@
                   >CONTACT</label
                >
                <input
-                  type="text"
+                  type="number"
                   class="rounded-md border border-gray-400 px-6 py-3"
                   placeholder="E.g. 09098314181 "
                />

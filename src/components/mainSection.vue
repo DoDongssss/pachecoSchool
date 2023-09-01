@@ -101,7 +101,7 @@
                   <button
                      class="mt-6 rounded-lg bg-primary px-8 py-3 text-sm text-white shadow-md transition-[background] hover:bg-[#159d39] sm:text-xl"
                   >
-                     <a href="#education"> EVENTS/SPORT </a>
+                     <a href="#campus"> EVENTS/SPORT </a>
                   </button>
                </div>
             </div>
