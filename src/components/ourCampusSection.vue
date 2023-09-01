@@ -39,7 +39,10 @@
             >
                <!-- <h3 text="2xl" justify="center">{{ item.src }}</h3> -->
                <img
-                  :src="'/src/assets/images/campus/' + item.src"
+                  :src="
+                     'https://pacheco-school.vercel.app/src/assets/images/campus/' +
+                     item.src
+                  "
                   alt="Static Image"
                />
             </el-carousel-item>
