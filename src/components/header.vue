@@ -27,37 +27,61 @@
          <div class="hidden gap-6 lg:flex">
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
-               :class="sectionRecieve == 'home' ? 'text-primary' : ''"
+               :class="
+                  sectionRecieve == 'home'
+                     ? 'scale-110 text-primary transition-all ease-in-out'
+                     : ''
+               "
             >
                <a href="#home"> Home</a>
             </li>
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
-               :class="sectionRecieve == 'about' ? 'text-primary' : ''"
+               :class="
+                  sectionRecieve == 'about'
+                     ? 'scale-110 text-primary transition-all ease-in-out'
+                     : ''
+               "
             >
                <a href="#about">About</a>
             </li>
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
-               :class="sectionRecieve == 'education' ? 'text-primary' : ''"
+               :class="
+                  sectionRecieve == 'education'
+                     ? 'scale-110 text-primary transition-all ease-in-out'
+                     : ''
+               "
             >
                <a href="#education">Education</a>
             </li>
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
-               :class="sectionRecieve == 'campus' ? 'text-primary' : ''"
+               :class="
+                  sectionRecieve == 'campus'
+                     ? 'scale-110 text-primary transition-all ease-in-out'
+                     : ''
+               "
             >
                <a href="#campus">Campus</a>
             </li>
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
-               :class="sectionRecieve == 'affiliation' ? 'text-primary' : ''"
+               :class="
+                  sectionRecieve == 'affiliation'
+                     ? 'scale-110 text-primary transition-all ease-in-out'
+                     : ''
+               "
             >
                <a href="#affiliation">Affiliations</a>
             </li>
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
-               :class="sectionRecieve == 'contact' ? 'text-primary' : ''"
+               :class="
+                  sectionRecieve == 'contact'
+                     ? 'scale-110 text-primary transition-all ease-in-out'
+                     : ''
+               "
             >
                <a href="#contact">Contact</a>
             </li>

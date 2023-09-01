@@ -35,10 +35,14 @@
             <el-carousel-item
                v-for="item in items"
                :key="item"
-               class="rounded-sm"
+               class="rounded-sm hover:scale-110"
             >
                <!-- <h3 text="2xl" justify="center">{{ item.src }}</h3> -->
-               <img :src="'/campus/' + item.src" alt="" />
+               <img
+                  :src="'/campus/' + item.src"
+                  alt=""
+                  class="transition-all hover:scale-110"
+               />
                <!-- <img src="../assets/images/campus/1.jpg" alt="" /> -->
             </el-carousel-item>
          </el-carousel>
