@@ -57,7 +57,7 @@
                <!-- <h3 text="2xl" justify="center">{{ item.src }}</h3> -->
                <img
                   src="../assets/images/campus/{{ item.src }}"
-                  alt="Static Image"
+                  alt="dynamic Image"
                />
                <!-- <img src="../assets/images/campus/1.jpg" alt="Dynamic Image" /> -->
             </el-carousel-item>
