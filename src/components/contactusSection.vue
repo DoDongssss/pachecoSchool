@@ -8,7 +8,7 @@
       <form
          action=""
          class="mt-12 flex w-full flex-col gap-6 md:w-[700px]"
-         @submit.prevent="sendEmail()"
+         @submit.prevent="handleCaptcha()"
       >
          <div class="flex w-full flex-col gap-6 md:flex-row">
             <div class="flex flex-1 flex-col gap-1">
@@ -85,8 +85,15 @@
             class="g-recaptcha"
             data-sitekey="6LfbjbYnAAAAAO7JHrcJtgoce2T18zU-nVmkwjyp"
          ></div>
-         <div class="">
+         <div class="flex items-center justify-between">
+            <div
+               class="rounded-md border border-green-500 bg-green-500/40 px-6 py-3 text-[#020066] transition-all duration-200 ease-linear"
+               :class="status == true ? 'opacity-1' : 'opacity-0'"
+            >
+               Message sent!
+            </div>
             <button
+               ref="submitBtn"
                type="submit"
                class="float-right w-[150px] rounded-md bg-primary px-6 py-[10px] text-lg font-semibold text-white transition-colors hover:bg-primary_dark"
             >
@@ -99,11 +106,12 @@
 
 <script>
 import { ref } from "vue"
-import emailjs from "emailjs-com"
 import axios from "axios"
 
 export default {
    setup() {
+      const submitBtn = ref()
+      const status = ref(false)
       const contactFrom = ref({
          firstname: null,
          lastname: null,
@@ -112,62 +120,67 @@ export default {
          address: null,
          messages: null,
       })
-      return { contactFrom }
+      const emailJSdata = ref({
+         service_id: "service_9b5eh41",
+         template_id: "template_pewmpk8",
+         user_id: "jiEPMBbIF-ES28y1l",
+         template_params: {
+            username: "",
+            from_name: "",
+            message: "",
+            address: "",
+            email: "",
+            "g-recaptcha-response": "",
+         },
+      })
+      return {
+         status,
+         submitBtn,
+         contactFrom,
+         emailJSdata,
+      }
    },
    methods: {
-      async sendEmail() {
-         // const mailToLink = `mailto:${"johnny.asumbra@eulap.com"}?subject=${encodeURIComponent(
-         //    this.contactFrom.lastname
-         // )}&body=${encodeURIComponent(this.contactFrom.messages)}`
-         // window.location.href = mailToLink
-
-         await emailjs
-            .send(
-               "service_y0cfvq1",
-               "template_pewmpk8",
-               {
-                  to_email: "christianemmanuel.espinosa@eulap.com",
-                  subject: this.contactFrom.lastname,
-                  message: this.contactFrom.messages,
-               },
-               "jiEPMBbIF-ES28y1l"
-            )
-            .then((res) => {
-               console.log(res)
-            })
-            .catch((err) => {
-               console.log(err)
-            })
-      },
-
-      async handleSend() {
+      handleCaptcha() {
+         this.submitBtn.disabled = true
          grecaptcha.enterprise.ready(async () => {
             const token = await grecaptcha.enterprise.execute(
-               "6LfbjbYnAAAAAJoNek_w8hhV0M8sdrDon2hv9OTq"
+               "6Le6IvcnAAAAAMDbWTM4VcqmMFYx4YPggDbdFS-B",
+               { action: this.handleSubmit() }
             )
-            await this.verifyCaptcha(token)
-            this.sendEmail()
+            this.emailJSdata.template_params["g-recaptcha-response"] = token
          })
       },
+      async handleSubmit() {
+         this.emailJSdata.template_params["from_name"] =
+            this.contactFrom.firstname + " " + this.contactFrom.lastname
+         this.emailJSdata.template_params["message"] = this.contactFrom.messages
+         this.emailJSdata.template_params["address"] = this.contactFrom.address
+         this.emailJSdata.template_params["email"] = this.contactFrom.email
+         await axios
+            .post(
+               "https://api.emailjs.com/api/v1.0/email/send",
+               this.emailJSdata
+            )
+            .then((res) => {
+               this.status = true
+               /* prettier-ignore */
+               ;(this.contactFrom.firstname = null),
+                  (this.contactFrom.lastname = null),
+                  (this.contactFrom.email = null),
+                  (this.contactFrom.address = null),
+                  (this.contactFrom.messages = null),
+                  (this.submitBtn.disabled = false)
+               /* prettier-ignore */
+               setTimeout( ()=>{
+                  this.status = false
+               }, 10000)
+            })
+            .catch((err) => {
+               this.submitBtn.disabled = false
+            })
 
-      async verifyCaptcha(recaptchaToken) {
-         console.log(recaptchaToken)
-         const response = await axios.post("/verify-recaptcha", recaptchaToken)
-         console.log(response)
-      },
-
-      async check(token) {
-         const response = await axios.post(
-            "https://www.google.com/recaptcha/api/siteverify",
-            null,
-            {
-               params: {
-                  secret: "6LfbjbYnAAAAAJoNek_w8hhV0M8sdrDon2hv9OTq",
-                  response: token,
-               },
-            }
-         )
-         console.log(response)
+         console.log("success")
       },
    },
 }
