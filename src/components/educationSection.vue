@@ -748,6 +748,11 @@ export default {
 .card_container:hover button {
    opacity: 1;
 }
+.card_container {
+   min-width: 350px;
+   max-width: 400px;
+   flex: 1 1 0%;
+}
 .card_container .mask {
    position: absolute;
    top: 0;

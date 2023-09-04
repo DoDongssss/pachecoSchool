@@ -14,9 +14,11 @@
             <competenciesSection />
          </div>
          <div
-            class="flex h-screen flex-col items-center justify-center bg-primary/10"
+            class="flex flex-col items-center justify-center bg-primary/10 px-6 py-12 lg:h-screen"
          >
-            <p class="max-w-[1000px] text-center text-[45px] leading-relaxed">
+            <p
+               class="max-w-[1000px] text-center text-sm leading-relaxed lg:text-[45px]"
+            >
                "At <span class="font-bold text-primary">ARPCI</span> we care
                about building a vibrant learning community where
                <span class="font-bold text-primary"
@@ -24,7 +26,7 @@
                >
             </p>
             <button
-               class="transition-bg mt-12 rounded-sm bg-primary px-6 py-3 text-lg font-semibold text-white duration-300 ease-linear hover:bg-[#089642]"
+               class="transition-bg mt-6 rounded-sm bg-primary px-6 py-3 text-[9px] font-semibold text-white duration-300 ease-linear hover:bg-[#089642] lg:mt-12 lg:text-lg"
             >
                <a href="#about">KNOW MORE</a>
             </button>
