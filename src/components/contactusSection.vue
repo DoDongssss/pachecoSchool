@@ -19,6 +19,7 @@
                   type="text"
                   class="rounded-md border border-gray-400 px-6 py-3"
                   placeholder="E.g. Juan "
+                  required
                />
             </div>
             <div class="flex flex-1 flex-col gap-1">
@@ -29,6 +30,7 @@
                   type="text"
                   class="rounded-md border border-gray-400 px-6 py-3"
                   placeholder="E.g. Dela Cruz"
+                  required
                />
             </div>
          </div>
@@ -41,6 +43,7 @@
                   type="email"
                   class="rounded-md border border-gray-400 px-6 py-3"
                   placeholder="E.g. Malibangmangoros@gmail.com"
+                  required
                />
             </div>
             <div class="flex flex-1 flex-col gap-1">
@@ -51,6 +54,7 @@
                   type="number"
                   class="rounded-md border border-gray-400 px-6 py-3"
                   placeholder="E.g. 09098314181 "
+                  required
                />
             </div>
          </div>
@@ -63,6 +67,7 @@
                   type="text"
                   class="rounded-md border border-gray-400 px-6 py-3"
                   placeholder="E.g. Poblacion Tampakan South Cotabato "
+                  required
                />
             </div>
          </div>
@@ -78,6 +83,7 @@
                   rows="5"
                   class="rounded-md border border-gray-400 px-6 py-3"
                   placeholder="How can we help you ?"
+                  required
                ></textarea>
             </div>
          </div>

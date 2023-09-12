@@ -77,11 +77,11 @@
                      Shaping Bright Futures with a foundation of Excellence in
                      education
                   </p>
-                  <button
+                  <!-- <button
                      class="mt-6 rounded-lg bg-primary px-8 py-3 text-sm text-white shadow-md transition-[background] hover:bg-[#159d39] sm:text-xl"
                   >
                      <a href="#education"> Offering </a>
-                  </button>
+                  </button> -->
                </div>
                <!-- third section of the carousel -->
                <div
@@ -97,11 +97,11 @@
                      Nurturing minds through sports and beyond: Fostering
                      Holistic Excellence in Education.
                   </p>
-                  <button
+                  <!-- <button
                      class="mt-6 rounded-lg bg-primary px-8 py-3 text-sm text-white shadow-md transition-[background] hover:bg-[#159d39] sm:text-xl"
                   >
                      <a href="#campus"> EVENTS/SPORT </a>
-                  </button>
+                  </button> -->
                </div>
             </div>
          </el-carousel-item>

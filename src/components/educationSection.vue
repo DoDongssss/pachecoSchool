@@ -14,7 +14,7 @@
                <img
                   src="../assets/images/preschool.jpg"
                   alt=""
-                  class="bg_image h-full w-full transition-all duration-300 ease-linear"
+                  class="bg_image bg_image h-full w-full transition-all duration-300 ease-linear"
                />
                <div class="mask"></div>
                <div class="overlay"></div>
@@ -105,7 +105,7 @@
                <img
                   src="../assets/images/preschool.jpg"
                   alt=""
-                  class="h-full w-full transition-all duration-300 ease-linear"
+                  class="bg_image h-full w-full transition-all duration-300 ease-linear"
                />
                <div class="mask"></div>
                <div class="overlay"></div>
@@ -203,7 +203,7 @@
                <img
                   src="../assets/images/preschool.jpg"
                   alt=""
-                  class="h-full w-full transition-all duration-300 ease-linear"
+                  class="bg_image h-full w-full transition-all duration-300 ease-linear"
                />
                <div class="mask"></div>
                <div class="overlay"></div>
@@ -299,7 +299,7 @@
                <img
                   src="../assets/images/preschool.jpg"
                   alt=""
-                  class="h-full w-full transition-all duration-300 ease-linear"
+                  class="bg_image h-full w-full transition-all duration-300 ease-linear"
                />
                <div class="mask"></div>
                <div class="overlay"></div>
@@ -393,7 +393,7 @@
                <img
                   src="../assets/images/preschool.jpg"
                   alt=""
-                  class="h-full w-full transition-all duration-300 ease-linear"
+                  class="bg_image h-full w-full transition-all duration-300 ease-linear"
                />
                <div class="mask"></div>
                <div class="overlay"></div>

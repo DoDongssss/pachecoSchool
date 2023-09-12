@@ -42,13 +42,10 @@
                   class="collapse-content mt-[-10px] border border-t-0 border-gray-300 pt-[1rem]"
                >
                   <p class="text-justify">
-                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                     Vitae ipsam sed molestias commodi tempora odit quaerat. Ex
-                     veritatis iure animi vero commodi minus quas aliquid in
-                     aspernatur cumque earum debitis temporibus, nulla aliquam
-                     ipsum, laboriosam, dolorum illum expedita sed. Quaerat
-                     cupiditate ipsa eius nihil eos nobis soluta modi esse
-                     reiciendis.
+                     A.R. Pacheco College Inc. shall inspire and educate
+                     students to achieve their full potential and be
+                     responsible, respectful, productive, and useful citizens of
+                     the community and the country as a whole.
                   </p>
                </div>
             </div>
@@ -85,13 +82,11 @@
                   class="collapse-content mt-[-10px] border border-t-0 border-gray-300 pt-[1rem]"
                >
                   <p class="text-justify">
-                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                     Vitae ipsam sed molestias commodi tempora odit quaerat. Ex
-                     veritatis iure animi vero commodi minus quas aliquid in
-                     aspernatur cumque earum debitis temporibus, nulla aliquam
-                     ipsum, laboriosam, dolorum illum expedita sed. Quaerat
-                     cupiditate ipsa eius nihil eos nobis soluta modi esse
-                     reiciendis.
+                     A.R. Pacheco College Inc. in partnership with the community
+                     envisions as a model institution of quality education that
+                     shall produce a graduate with fully developed multiple
+                     intelligences and is able to make positive differences
+                     wherever he/she may be.
                   </p>
                </div>
             </div>
@@ -106,7 +101,7 @@
                      class="font-bold transition-colors ease-linear"
                      :class="collapseThree ? ' text-primary' : ''"
                   >
-                     PHILOSOPHY OF EDUCATION
+                     GOALS
                   </h1>
 
                   <svg
@@ -125,14 +120,26 @@
                   </svg>
                </div>
                <div
-                  class="collapse-content mt-[-10px] border border-t-0 border-gray-300 pt-[1rem]"
+                  class="collapse-content mt-[-10px] flex flex-col gap-4 border border-t-0 border-gray-300 pt-[1rem]"
                >
-                  <p class="text-justify">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Ut, nobis tempore doloribus nam iure, perspiciatis
-                     reprehenderit ratione vel autem repudiandae molestias
-                     suscipit ea sint fugit!
-                  </p>
+                  <li>
+                     To prepare students for leadership and useful resources in
+                     the field of education and modern technology in order to
+                     help and enhance and improve lives.
+                  </li>
+
+                  <li>
+                     To challenge students to seek new knowledge and strategies
+                     for self and social, socio-economic prosperity.
+                  </li>
+                  <li>
+                     Strengthen the different school programs in every
+                     Department.
+                  </li>
+                  <li>To develop the students multiple intelligences.</li>
+                  <li>
+                     To provide assistance to those poor but deserving students.
+                  </li>
                </div>
             </div>
             <div
@@ -167,34 +174,11 @@
                <div
                   class="collapse-content mt-[-10px] border border-t-0 border-gray-300 pt-[1rem]"
                >
-                  <h1 class="text-xl font-bold">INTELASDAS</h1>
-                  <p class="mt-2 text-justify">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Necessitatibus nihil vel, eius harum minima rem, beatae
-                     mollitia qui quibusdam, aperiam sapiente! Eaque, explicabo
-                     accusantium iusto natus quaerat repellendus dolore? Qui
-                     consequatur veritatis odit, laborum, rerum similique
-                     necessitatibus, non quis debitis illo enim minus?
-                     Reprehenderit fugit exercitationem odit, debitis aspernatur
-                     aliquam?
-                  </p>
-                  <h1 class="mt-5 text-xl font-bold">INTELASDAS</h1>
-                  <p class="mt-2 text-justify">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Necessitatibus nihil vel, eius harum minima rem, beatae
-                     mollitia qui quibusdam, aperiam sapiente! Eaque, explicabo
-                     accusantium iusto natus quaerat repellendus dolore? Qui
-                     consequatur veritatis odit, laborum, rerum similique
-                     necessitatibus, non quis debitis illo enim minus?
-                     Reprehenderit fugit exercitationem odit, debitis aspernatur
-                     aliquam?
-                  </p>
-                  <h1 class="mt-5 text-xl font-bold">INTELASDAS</h1>
-                  <p class="mt-2 text-justify">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Molestias ipsum nisi, aspernatur dolorem saepe optio alias
-                     quas nostrum ducimus! Recusandae provident optio eum
-                     dignissimos commodi.
+                  <p class="text-justify">
+                     <li>Maka-Diyos</li>
+                     <li>Maka-tao</li>
+                     <li>Makakalikasan</li>
+                     <li>Makabansas</li>
                   </p>
                </div>
             </div>
