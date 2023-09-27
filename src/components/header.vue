@@ -24,7 +24,7 @@
                >Antonio R. Pacheco School</span
             > -->
          </div>
-         <div class="hidden gap-6 lg:flex">
+         <div class="hidden items-center gap-6 lg:flex">
             <li
                class="font-regular cursor-pointer list-none text-[19px] tracking-wide"
                :class="
@@ -84,6 +84,18 @@
                "
             >
                <a href="#contact">Contact</a>
+            </li>
+            <li class="ml-5 list-none">
+               <button
+                  class="rounded bg-primary/90 px-4 py-2 text-white transition-all hover:bg-primary"
+               >
+                  <a
+                     href="https://arpacheco.eulap.com/cbs/a/login"
+                     target="_blank"
+                  >
+                     Login
+                  </a>
+               </button>
             </li>
          </div>
          <div class="dropdown dropdown-end lg:hidden">

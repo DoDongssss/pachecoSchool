@@ -9,7 +9,7 @@
             <img
                src="../assets/images/logo.png"
                alt=""
-               class="h-[125px] w-[125px]"
+               class="logo h-[125px] w-[125px]"
             />
             <p class="text-md font-[900]">ANTONIO R. PACHECO COLLEGE INC.</p>
          </div>
@@ -170,4 +170,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+.logo {
+   filter: drop-shadow(0 0 10px #eee);
+}
+</style>

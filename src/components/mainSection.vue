@@ -52,7 +52,7 @@
                   <img
                      src="../assets/images/logo.png"
                      alt=""
-                     class="h-[125px] w-[125px] sm:h-[200px] sm:w-[200px]"
+                     class="logo h-[125px] w-[125px] sm:h-[200px] sm:w-[200px]"
                   />
                   <h1 class="text-[4vw] font-[900] italic text-white">
                      ANTONIO R. PACHECO COLLEGE, INC.
@@ -161,5 +161,8 @@ export default {
    .el-carousel__indicators.el-carousel__indicators--vertical {
       visibility: hidden;
    }
+}
+.logo {
+   filter: drop-shadow(0 0 10px #eee);
 }
 </style>
