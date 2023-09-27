@@ -14,7 +14,7 @@
             <competenciesSection />
          </div>
          <div
-            class="flex flex-col items-center justify-center bg-primary/10 px-6 py-12 lg:h-screen"
+            class="flex flex-col items-center justify-center bg-primary/10 bg-[url('./images/tagline_bg.jpg')] px-6 py-12 lg:h-screen"
          >
             <p
                class="max-w-[1000px] text-center text-sm leading-relaxed lg:text-[45px]"
@@ -26,7 +26,7 @@
                >
             </p>
             <button
-               class="transition-bg mt-6 rounded-sm bg-primary px-6 py-3 text-[9px] font-semibold text-white duration-300 ease-linear hover:bg-[#089642] lg:mt-12 lg:text-lg"
+               class="transition-bg mt-6 rounded-md bg-primary px-6 py-3 text-[9px] font-semibold text-white duration-300 ease-linear hover:bg-[#089642] lg:mt-12 lg:text-lg"
             >
                <a href="#about">KNOW MORE</a>
             </button>

@@ -8,16 +8,20 @@
          </h1>
          <div class="flex flex-col">
             <h2 class="mt-4 text-justify">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-               esse ipsum, excepturi assumenda earum obcaecati cupiditate! Totam
-               eos doloribus corrupti tempora sapiente, rem recusandae eaque
-               itaque magni nisi! Sapiente doloremque Lorem ipsum dolor sit
-               amet, consectetur adipisicing elit. Alias, odit officiis commodi
-               eligendi nisi quisquam neque cupiditate inventore. Nihil eos
-               doloribus dicta quas quis, tempore quasi repellat perspiciatis
-               deserunt minus laboriosam quisquam in iusto omnis nesciunt
-               quaerat eum voluptates facere quam! Tempora saepe ad, accusamus
-               hic necessitatibus enim deleniti nesciunt.
+               Antonio R. Pacheco College Inc. (ARPCI) traces its roots back to
+               1993 when Mr. & Mrs. Antonio R. Pacheco embarked on a journey to
+               establish an educational institution. What began as the Antonio
+               R. Pacheco Kindergarten School in Cotabato City, offering solely
+               kindergarten classes under the guidance of Madam Maria T.
+               Pacheco, has since blossomed into a thriving educational hub. The
+               institution's unwavering dedication to serving its students led
+               to the expansion of offerings, eventually encompassing
+               elementary, high school, and even college courses, all while
+               maintaining a commitment to affordable tuition fees and providing
+               experienced teachers. Today, ARPCI stands as a beacon of
+               educational excellence, not only preparing students for
+               professional success but also instilling in them the values and
+               skills necessary to become contributing members of society.
             </h2>
          </div>
          <div class="mt-5 flex w-full flex-col items-center gap-1 xl:flex-row">
@@ -38,8 +42,12 @@
                      <div class="flex flex-col">
                         <h2 class="font-bold">HISTORY</h2>
                         <p class="mt-2 text-justify">
-                           Lorem ipsum, dolor sit amet consectetur adipisicing
-                           elit. Tenetur obcaecati doloribu
+                           Established in 1993, the Antonio R. Pacheco College
+                           Inc. in Cotabato City evolved from a kindergarten
+                           school to a comprehensive educational institution,
+                           offering a range of programs and aiming to equip
+                           students for professional success while prioritizing
+                           affordability and quality.
                         </p>
                      </div>
                   </div>

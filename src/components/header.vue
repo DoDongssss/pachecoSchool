@@ -87,7 +87,7 @@
             </li>
             <li class="ml-5 list-none">
                <button
-                  class="rounded bg-primary/90 px-4 py-2 text-white transition-all hover:bg-primary"
+                  class="rounded bg-primary/90 px-4 py-2 text-white transition-all hover:bg-[#089642]"
                >
                   <a
                      href="https://arpacheco.eulap.com/cbs/a/login"

@@ -12,7 +12,12 @@
             <div
                class="collapse w-[calc(50%-12px)] min-w-[400px] flex-1 rounded-none"
             >
-               <input type="checkbox" class="peer" @click="toggleOne()" />
+               <input
+                  type="checkbox"
+                  class="peer"
+                  @click="toggleOne()"
+                  checked
+               />
                <div
                   class="collapse-title flex h-[50px] min-h-0 items-center justify-between border border-gray-300 p-0 px-6"
                >
@@ -52,7 +57,12 @@
             <div
                class="collapse w-[calc(50%-12px)] min-w-[400px] flex-1 rounded-none"
             >
-               <input type="checkbox" class="peer" @click="toggleTwo()" />
+               <input
+                  type="checkbox"
+                  class="peer"
+                  @click="toggleTwo()"
+                  checked
+               />
                <div
                   class="collapse-title flex h-[50px] min-h-0 items-center justify-between border border-gray-300 p-0 px-6"
                >
@@ -93,7 +103,12 @@
             <div
                class="collapse w-[calc(50%-12px)] min-w-[400px] flex-1 rounded-none"
             >
-               <input type="checkbox" class="peer" @click="toggleThree()" />
+               <input
+                  type="checkbox"
+                  class="peer"
+                  @click="toggleThree()"
+                  checked
+               />
                <div
                   class="collapse-title flex h-[50px] min-h-0 items-center justify-between border border-gray-300 p-0 px-6"
                >
@@ -145,7 +160,12 @@
             <div
                class="collapse w-[calc(50%-12px)] min-w-[400px] flex-1 rounded-none"
             >
-               <input type="checkbox" class="peer" @click="toggleFour()" />
+               <input
+                  type="checkbox"
+                  class="peer"
+                  @click="toggleFour()"
+                  checked
+               />
                <div
                   class="collapse-title flex h-[50px] min-h-0 items-center justify-between border border-gray-300 p-0 px-6"
                >
