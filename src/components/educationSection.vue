@@ -215,7 +215,7 @@
                <img
                   src="../assets/images/junior-high.jpg"
                   alt=""
-                  class="bg_imag w-full transition-all duration-300 ease-linear"
+                  class="bg_image w-full transition-all duration-300 ease-linear"
                />
                <div class="mask"></div>
                <div class="overlay"></div>
