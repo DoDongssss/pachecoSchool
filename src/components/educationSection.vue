@@ -14,7 +14,7 @@
                <img
                   src="../assets/images/pre-school.jpg"
                   alt=""
-                  class="bg_image bg_image h-full w-full transition-all duration-300 ease-linear"
+                  class="bg_image bg_image w-full transition-all duration-300 ease-linear"
                />
                <div class="mask"></div>
                <div class="overlay"></div>
@@ -95,7 +95,7 @@
                               type="button"
                               class="text-md mt-6 rounded-full border border-[#089642] px-4 py-2 text-black shadow-md transition-[background] hover:bg-[#089642] hover:text-white"
                            >
-                              <a href="#contact"> Inquire us </a>
+                              <a href="#contact"> Inquire now </a>
                            </button>
                         </div>
                      </div>
@@ -111,7 +111,7 @@
                <img
                   src="../assets/images/elementary.jpg"
                   alt=""
-                  class="bg_image h-full w-full transition-all duration-300 ease-linear"
+                  class="bg_image w-full transition-all duration-300 ease-linear"
                />
                <div class="mask"></div>
                <div class="overlay"></div>
@@ -199,7 +199,7 @@
                               type="button"
                               class="text-md mt-6 rounded-full border border-[#089642] px-4 py-2 text-black shadow-md transition-[background] hover:bg-[#089642] hover:text-white"
                            >
-                              <a href="#contact"> Inquire us </a>
+                              <a href="#contact"> Inquire now </a>
                            </button>
                         </div>
                      </div>
@@ -215,7 +215,7 @@
                <img
                   src="../assets/images/junior-high.jpg"
                   alt=""
-                  class="bg_image h-full w-full transition-all duration-300 ease-linear"
+                  class="bg_imag w-full transition-all duration-300 ease-linear"
                />
                <div class="mask"></div>
                <div class="overlay"></div>
@@ -301,7 +301,7 @@
                               type="button"
                               class="text-md mt-6 rounded-full border border-[#089642] px-4 py-2 text-black shadow-md transition-[background] hover:bg-[#089642] hover:text-white"
                            >
-                              <a href="#contact"> Inquire us </a>
+                              <a href="#contact"> Inquire now </a>
                            </button>
                         </div>
                      </div>
@@ -317,7 +317,7 @@
                <img
                   src="../assets/images/senhigh.jpg"
                   alt=""
-                  class="bg_image h-full w-full transition-all duration-300 ease-linear"
+                  class="bg_image w-full transition-all duration-300 ease-linear"
                />
                <div class="mask"></div>
                <div class="overlay"></div>
@@ -401,7 +401,7 @@
                               type="button"
                               class="text-md mt-6 rounded-full border border-[#089642] px-4 py-2 text-black shadow-md transition-[background] hover:bg-[#089642] hover:text-white"
                            >
-                              <a href="#contact"> Inquire us </a>
+                              <a href="#contact"> Inquire now </a>
                            </button>
                         </div>
                      </div>
@@ -417,7 +417,7 @@
                <img
                   src="../assets/images/college.jpg"
                   alt=""
-                  class="bg_image h-full w-full transition-all duration-300 ease-linear"
+                  class="bg_image w-full transition-all duration-300 ease-linear"
                />
                <div class="mask"></div>
                <div class="overlay"></div>
@@ -561,7 +561,7 @@
                               type="button"
                               class="text-md mt-6 rounded-full border border-[#089642] px-4 py-2 text-black shadow-md transition-[background] hover:bg-[#089642] hover:text-white"
                            >
-                              <a href="#contact"> Inquire us </a>
+                              <a href="#contact"> Inquire now </a>
                            </button>
                         </div>
                         <!-- <div class="mt-12 flex gap-3">
