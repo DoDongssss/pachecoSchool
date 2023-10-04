@@ -12,12 +12,7 @@
             <div
                class="collapse w-[calc(50%-12px)] min-w-[400px] flex-1 rounded-none"
             >
-               <input
-                  type="checkbox"
-                  class="peer"
-                  @click="toggleOne()"
-                  checked
-               />
+               <input type="checkbox" class="peer" @click="toggleOne()" />
                <div
                   class="collapse-title flex h-[50px] min-h-0 items-center justify-between border border-gray-300 p-0 px-6"
                >
@@ -57,12 +52,7 @@
             <div
                class="collapse w-[calc(50%-12px)] min-w-[400px] flex-1 rounded-none"
             >
-               <input
-                  type="checkbox"
-                  class="peer"
-                  @click="toggleTwo()"
-                  checked
-               />
+               <input type="checkbox" class="peer" @click="toggleTwo()" />
                <div
                   class="collapse-title flex h-[50px] min-h-0 items-center justify-between border border-gray-300 p-0 px-6"
                >
@@ -103,12 +93,7 @@
             <div
                class="collapse w-[calc(50%-12px)] min-w-[400px] flex-1 rounded-none"
             >
-               <input
-                  type="checkbox"
-                  class="peer"
-                  @click="toggleThree()"
-                  checked
-               />
+               <input type="checkbox" class="peer" @click="toggleThree()" />
                <div
                   class="collapse-title flex h-[50px] min-h-0 items-center justify-between border border-gray-300 p-0 px-6"
                >
@@ -160,12 +145,7 @@
             <div
                class="collapse w-[calc(50%-12px)] min-w-[400px] flex-1 rounded-none"
             >
-               <input
-                  type="checkbox"
-                  class="peer"
-                  @click="toggleFour()"
-                  checked
-               />
+               <input type="checkbox" class="peer" @click="toggleFour()" />
                <div
                   class="collapse-title flex h-[50px] min-h-0 items-center justify-between border border-gray-300 p-0 px-6"
                >
