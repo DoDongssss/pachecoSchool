@@ -315,7 +315,7 @@
                class="card_container relative flex h-[450px] w-[calc((100%/3)-13.33px)] cursor-pointer items-center justify-center overflow-hidden rounded-sm bg-red-500"
             >
                <img
-                  src="../assets/images/senior-high.jpg"
+                  src="../assets/images/senhigh.jpg"
                   alt=""
                   class="bg_image h-full w-full transition-all duration-300 ease-linear"
                />
