@@ -9,7 +9,7 @@
 
          <div class="mt-12 flex w-full flex-wrap justify-center gap-5">
             <div
-               class="card_container relative flex h-[450px] w-[calc((100%/3)-13.33px)] cursor-pointer items-center justify-center overflow-hidden rounded-sm bg-red-500"
+               class="card_container relative flex h-[450px] w-[calc((100%/3)-13.33px)] cursor-pointer items-center justify-center overflow-hidden rounded-sm"
             >
                <img
                   src="../assets/images/pre-school.jpg"
@@ -106,7 +106,7 @@
                </dialog>
             </div>
             <div
-               class="card_container relative flex h-[450px] w-[calc((100%/3)-13.33px)] cursor-pointer items-center justify-center overflow-hidden rounded-sm bg-red-500"
+               class="card_container relative flex h-[450px] w-[calc((100%/3)-13.33px)] cursor-pointer items-center justify-center overflow-hidden rounded-sm"
             >
                <img
                   src="../assets/images/elementary.jpg"
@@ -210,7 +210,7 @@
                </dialog>
             </div>
             <div
-               class="card_container relative flex h-[450px] w-[calc((100%/3)-13.33px)] cursor-pointer items-center justify-center overflow-hidden rounded-sm bg-red-500"
+               class="card_container relative flex h-[450px] w-[calc((100%/3)-13.33px)] cursor-pointer items-center justify-center overflow-hidden rounded-sm"
             >
                <img
                   src="../assets/images/junior-high.jpg"
@@ -312,7 +312,7 @@
                </dialog>
             </div>
             <div
-               class="card_container relative flex h-[450px] w-[calc((100%/3)-13.33px)] cursor-pointer items-center justify-center overflow-hidden rounded-sm bg-red-500"
+               class="card_container relative flex h-[450px] w-[calc((100%/3)-13.33px)] cursor-pointer items-center justify-center overflow-hidden rounded-sm"
             >
                <img
                   src="../assets/images/senhigh.jpg"
@@ -412,7 +412,7 @@
                </dialog>
             </div>
             <div
-               class="card_container relative flex h-[450px] w-[calc((100%/3)-13.33px)] cursor-pointer items-center justify-center overflow-hidden rounded-sm bg-red-500"
+               class="card_container relative flex h-[450px] w-[calc((100%/3)-13.33px)] cursor-pointer items-center justify-center overflow-hidden rounded-sm"
             >
                <img
                   src="../assets/images/college.jpg"
