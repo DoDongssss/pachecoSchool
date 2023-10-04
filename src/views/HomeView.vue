@@ -26,7 +26,7 @@
                >
             </p>
             <button
-               class="transition-bg mt-6 rounded-md bg-primary px-6 py-3 text-[9px] font-semibold text-white duration-300 ease-linear hover:bg-[#089642] lg:mt-12 lg:text-lg"
+               class="transition-bg text-md mt-6 rounded-md bg-primary px-6 py-3 text-white duration-300 ease-linear hover:bg-[#089642] lg:mt-12 lg:text-lg"
             >
                <a href="#about">KNOW MORE</a>
             </button>
@@ -36,7 +36,7 @@
          >
             <educationSection id="education" />
             <ourCampusSection id="campus" />
-            <affiliationSection id="affiliation" />
+            <!-- <affiliationSection id="affiliation" /> -->
             <contactusSection id="contact" />
          </div>
          <footer class="mb-[800px] bg-[#111]"></footer>

@@ -12,7 +12,7 @@
                class="card_container relative flex h-[450px] w-[calc((100%/3)-13.33px)] cursor-pointer items-center justify-center overflow-hidden rounded-sm bg-red-500"
             >
                <img
-                  src="../assets/images/preschool.jpg"
+                  src="../assets/images/pre-school.jpg"
                   alt=""
                   class="bg_image bg_image h-full w-full transition-all duration-300 ease-linear"
                />
@@ -45,37 +45,35 @@
                      class="modal-box w-[700px] max-w-[1000px] rounded-md p-0"
                   >
                      <div
-                        class="relative flex h-[150px] items-center justify-center"
+                        class="relative flex h-[150px] items-center justify-center bg-primary"
                      >
-                        <img
+                        <!-- <img
                            src="../assets/images/footerbg.jpg"
                            alt=""
                            class="h-full w-full"
-                        />
+                        /> -->
 
                         <span class="absolute text-4xl text-white"
                            ><span class="font-bold">Pre</span> School</span
                         >
                      </div>
                      <div class="flex flex-col p-6">
-                        <h1 class="text-justify">
+                        <!-- <h1 class="text-justify">
                            Welcome to the Pre School section of the ARPCI .
                            There is a wealth of information here for you to
                            digest in your own time and at your own pace, which
                            should answer some of your questions, however we
                            always encourage you to speak to us or your class
                            teacher in person for more context.
-                        </h1>
-                        <h1 class="mt-6 text-lg font-semibold">
-                           What we offer:
-                        </h1>
+                        </h1> -->
+                        <h1 class="text-lg font-semibold">What we offer:</h1>
                         <ul
                            class="ml-6 mt-2 flex list-disc flex-col gap-2 text-[16px] text-lg"
                         >
                            <li>Kinder 1</li>
                            <li>Kinder 2</li>
                         </ul>
-                        <div class="mt-12 flex gap-3">
+                        <!-- <div class="mt-12 flex gap-3">
                            <img
                               src="../assets/images/preschool.jpg"
                               alt=""
@@ -91,6 +89,14 @@
                               alt=""
                               class="h-[calc(100%/3-8px)] w-[calc(100%/3-8px)] rounded-sm"
                            />
+                        </div> -->
+                        <div class="mt-8 flex items-center justify-center">
+                           <button
+                              type="button"
+                              class="text-md mt-6 rounded-full border border-[#089642] px-4 py-2 text-black shadow-md transition-[background] hover:bg-[#089642] hover:text-white"
+                           >
+                              <a href="#contact"> Inquire us </a>
+                           </button>
                         </div>
                      </div>
                   </form>
@@ -103,7 +109,7 @@
                class="card_container relative flex h-[450px] w-[calc((100%/3)-13.33px)] cursor-pointer items-center justify-center overflow-hidden rounded-sm bg-red-500"
             >
                <img
-                  src="../assets/images/preschool.jpg"
+                  src="../assets/images/elementary.jpg"
                   alt=""
                   class="bg_image h-full w-full transition-all duration-300 ease-linear"
                />
@@ -138,13 +144,13 @@
                      class="modal-box w-[700px] max-w-[1000px] rounded-md p-0"
                   >
                      <div
-                        class="relative flex h-[150px] items-center justify-center"
+                        class="relative flex h-[150px] items-center justify-center bg-primary"
                      >
-                        <img
+                        <!-- <img
                            src="../assets/images/footerbg.jpg"
                            alt=""
                            class="h-full w-full"
-                        />
+                        /> -->
 
                         <span class="absolute text-4xl text-white"
                            ><span class="font-bold">Elementary</span>
@@ -152,17 +158,15 @@
                         >
                      </div>
                      <div class="flex flex-col p-6">
-                        <h1 class="text-justify">
+                        <!-- <h1 class="text-justify">
                            Welcome to the Elementary School section of the ARPCI
                            . There is a wealth of information here for you to
                            digest in your own time and at your own pace, which
                            should answer some of your questions, however we
                            always encourage you to speak to us or your class
                            teacher in person for more context.
-                        </h1>
-                        <h1 class="mt-6 text-lg font-semibold">
-                           What we offer:
-                        </h1>
+                        </h1> -->
+                        <h1 class="text-lg font-semibold">What we offer:</h1>
                         <ul
                            class="ml-6 mt-2 flex list-disc flex-col gap-2 text-[16px] text-lg"
                         >
@@ -173,7 +177,7 @@
                            <li>Grade 5</li>
                            <li>Grade 6</li>
                         </ul>
-                        <div class="mt-12 flex gap-3">
+                        <!-- <div class="mt-12 flex gap-3">
                            <img
                               src="../assets/images/preschool.jpg"
                               alt=""
@@ -189,6 +193,14 @@
                               alt=""
                               class="h-[calc(100%/3-8px)] w-[calc(100%/3-8px)] rounded-sm"
                            />
+                        </div> -->
+                        <div class="mt-8 flex items-center justify-center">
+                           <button
+                              type="button"
+                              class="text-md mt-6 rounded-full border border-[#089642] px-4 py-2 text-black shadow-md transition-[background] hover:bg-[#089642] hover:text-white"
+                           >
+                              <a href="#contact"> Inquire us </a>
+                           </button>
                         </div>
                      </div>
                   </form>
@@ -201,7 +213,7 @@
                class="card_container relative flex h-[450px] w-[calc((100%/3)-13.33px)] cursor-pointer items-center justify-center overflow-hidden rounded-sm bg-red-500"
             >
                <img
-                  src="../assets/images/preschool.jpg"
+                  src="../assets/images/junior-high.jpg"
                   alt=""
                   class="bg_image h-full w-full transition-all duration-300 ease-linear"
                />
@@ -236,13 +248,13 @@
                      class="modal-box w-[700px] max-w-[1000px] rounded-md p-0"
                   >
                      <div
-                        class="relative flex h-[150px] items-center justify-center"
+                        class="relative flex h-[150px] items-center justify-center bg-primary"
                      >
-                        <img
+                        <!-- <img
                            src="../assets/images/footerbg.jpg"
                            alt=""
                            class="h-full w-full"
-                        />
+                        /> -->
 
                         <span class="absolute text-4xl text-white"
                            ><span class="font-bold">Junior High</span>
@@ -250,17 +262,15 @@
                         >
                      </div>
                      <div class="flex flex-col p-6">
-                        <h1 class="text-justify">
+                        <!-- <h1 class="text-justify">
                            Welcome to the Junior High School section of the
                            ARPCI . There is a wealth of information here for you
                            to digest in your own time and at your own pace,
                            which should answer some of your questions, however
                            we always encourage you to speak to us or your class
                            teacher in person for more context.
-                        </h1>
-                        <h1 class="mt-6 text-lg font-semibold">
-                           What we offer:
-                        </h1>
+                        </h1> -->
+                        <h1 class="text-lg font-semibold">What we offer:</h1>
                         <ul
                            class="ml-6 mt-2 flex list-disc flex-col gap-2 text-[16px] text-lg"
                         >
@@ -269,7 +279,7 @@
                            <li>Grade 9</li>
                            <li>Grade 10</li>
                         </ul>
-                        <div class="mt-12 flex gap-3">
+                        <!-- <div class="mt-12 flex gap-3">
                            <img
                               src="../assets/images/preschool.jpg"
                               alt=""
@@ -285,6 +295,14 @@
                               alt=""
                               class="h-[calc(100%/3-8px)] w-[calc(100%/3-8px)] rounded-sm"
                            />
+                        </div> -->
+                        <div class="mt-8 flex items-center justify-center">
+                           <button
+                              type="button"
+                              class="text-md mt-6 rounded-full border border-[#089642] px-4 py-2 text-black shadow-md transition-[background] hover:bg-[#089642] hover:text-white"
+                           >
+                              <a href="#contact"> Inquire us </a>
+                           </button>
                         </div>
                      </div>
                   </form>
@@ -297,7 +315,7 @@
                class="card_container relative flex h-[450px] w-[calc((100%/3)-13.33px)] cursor-pointer items-center justify-center overflow-hidden rounded-sm bg-red-500"
             >
                <img
-                  src="../assets/images/preschool.jpg"
+                  src="../assets/images/senior-high.jpg"
                   alt=""
                   class="bg_image h-full w-full transition-all duration-300 ease-linear"
                />
@@ -332,13 +350,13 @@
                      class="modal-box w-[700px] max-w-[1000px] rounded-md p-0"
                   >
                      <div
-                        class="relative flex h-[150px] items-center justify-center"
+                        class="relative flex h-[150px] items-center justify-center bg-primary"
                      >
-                        <img
+                        <!-- <img
                            src="../assets/images/footerbg.jpg"
                            alt=""
                            class="h-full w-full"
-                        />
+                        /> -->
 
                         <span class="absolute text-4xl text-white"
                            ><span class="font-bold">Senior High</span>
@@ -346,24 +364,22 @@
                         >
                      </div>
                      <div class="flex flex-col p-6">
-                        <h1 class="text-justify">
+                        <!-- <h1 class="text-justify">
                            Welcome to the Senior High School section of the
                            ARPCI . There is a wealth of information here for you
                            to digest in your own time and at your own pace,
                            which should answer some of your questions, however
                            we always encourage you to speak to us or your class
                            teacher in person for more context.
-                        </h1>
-                        <h1 class="mt-6 text-lg font-semibold">
-                           What we offer:
-                        </h1>
+                        </h1> -->
+                        <h1 class="text-lg font-semibold">What we offer:</h1>
                         <ul
                            class="ml-6 mt-2 flex list-disc flex-col gap-2 text-[16px] text-lg"
                         >
-                           <li>GAS</li>
-                           <li>TVL</li>
+                           <li>HUMMS</li>
+                           <!-- <li>TVL</li> -->
                         </ul>
-                        <div class="mt-12 flex gap-3">
+                        <!-- <div class="mt-12 flex gap-3">
                            <img
                               src="../assets/images/preschool.jpg"
                               alt=""
@@ -379,6 +395,14 @@
                               alt=""
                               class="h-[calc(100%/3-8px)] w-[calc(100%/3-8px)] rounded-sm"
                            />
+                        </div> -->
+                        <div class="mt-8 flex items-center justify-center">
+                           <button
+                              type="button"
+                              class="text-md mt-6 rounded-full border border-[#089642] px-4 py-2 text-black shadow-md transition-[background] hover:bg-[#089642] hover:text-white"
+                           >
+                              <a href="#contact"> Inquire us </a>
+                           </button>
                         </div>
                      </div>
                   </form>
@@ -391,7 +415,7 @@
                class="card_container relative flex h-[450px] w-[calc((100%/3)-13.33px)] cursor-pointer items-center justify-center overflow-hidden rounded-sm bg-red-500"
             >
                <img
-                  src="../assets/images/preschool.jpg"
+                  src="../assets/images/college.jpg"
                   alt=""
                   class="bg_image h-full w-full transition-all duration-300 ease-linear"
                />
@@ -426,30 +450,28 @@
                      class="modal-box w-[700px] max-w-[1000px] rounded-md p-0"
                   >
                      <div
-                        class="relative flex h-[150px] items-center justify-center"
+                        class="relative flex h-[150px] items-center justify-center bg-primary"
                      >
-                        <img
+                        <!-- <img
                            src="../assets/images/footerbg.jpg"
                            alt=""
                            class="h-full w-full"
-                        />
+                        /> -->
 
                         <span class="absolute text-4xl text-white"
                            ><span class="font-bold">College</span>
                         </span>
                      </div>
                      <div class="flex flex-col p-6">
-                        <h1 class="text-justify">
+                        <!-- <h1 class="text-justify">
                            Welcome to the College section of the ARPCI . There
                            is a wealth of information here for you to digest in
                            your own time and at your own pace, which should
                            answer some of your questions, however we always
                            encourage you to speak to us or your class teacher in
                            person for more context.
-                        </h1>
-                        <h1 class="mt-6 text-lg font-semibold">
-                           What we offer:
-                        </h1>
+                        </h1> -->
+                        <h1 class="text-lg font-semibold">What we offer:</h1>
                         <div class="flex flex-col gap-0 md:flex-row">
                            <div
                               class="mt-6 flex w-full items-start justify-center md:w-1/2"
@@ -534,27 +556,35 @@
                               </ul>
                            </div>
                         </div>
-                        <div class="mt-12 flex gap-3">
-                           <img
-                              src="../assets/images/preschool.jpg"
-                              alt=""
-                              class="h-[calc(100%/3-8px)] w-[calc(100%/3-8px)] rounded-sm"
-                           />
-                           <img
-                              src="../assets/images/preschool.jpg"
-                              alt=""
-                              class="h-[calc(100%/3-8px)] w-[calc(100%/3-8px)] rounded-sm"
-                           />
-                           <img
-                              src="../assets/images/preschool.jpg"
-                              alt=""
-                              class="h-[calc(100%/3-8px)] w-[calc(100%/3-8px)] rounded-sm"
-                           />
+                        <div class="mt-8 flex items-center justify-center">
+                           <button
+                              type="button"
+                              class="text-md mt-6 rounded-full border border-[#089642] px-4 py-2 text-black shadow-md transition-[background] hover:bg-[#089642] hover:text-white"
+                           >
+                              <a href="#contact"> Inquire us </a>
+                           </button>
                         </div>
+                        <!-- <div class="mt-12 flex gap-3">
+                           <img
+                              src="../assets/images/preschool.jpg"
+                              alt=""
+                              class="h-[calc(100%/3-8px)] w-[calc(100%/3-8px)] rounded-sm"
+                           />
+                           <img
+                              src="../assets/images/preschool.jpg"
+                              alt=""
+                              class="h-[calc(100%/3-8px)] w-[calc(100%/3-8px)] rounded-sm"
+                           />
+                           <img
+                              src="../assets/images/preschool.jpg"
+                              alt=""
+                              class="h-[calc(100%/3-8px)] w-[calc(100%/3-8px)] rounded-sm"
+                           />
+                        </div> -->
                      </div>
                   </form>
                   <form method="dialog" class="modal-backdrop">
-                     <button>close</button>
+                     <button class="text-black">close</button>
                   </form>
                </dialog>
             </div>
