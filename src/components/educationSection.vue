@@ -793,7 +793,7 @@ export default {
    background: linear-gradient(
       180deg,
       rgba(3, 15, 0, 0) 39.22%,
-      rgba(2, 10, 0, 0) 39.22%,
+      rgba(2, 10, 0, 0) 40.22%,
       #020a00 100%
    );
 }
